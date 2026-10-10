@@ -1,0 +1,10 @@
+# Betriebssystem / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Lokale Notizen und Entwürfe
+*.local.*
+*.bak

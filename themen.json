@@ -1,0 +1,1813 @@
+{
+  "meta": {
+    "stand": "2026-10-04",
+    "botschaftUrl": "https://www.europa.eda.admin.ch/dam/de/sd-web/qVBeKDf08Z2m/Botschaft%20Paket%20Schweiz-EU%20(Bilaterale%20III)%20DE.pdf",
+    "portalUrl": "https://www.admin.ch/de/paket-schweiz-eu",
+    "edaUrl": "https://www.europa.eda.admin.ch/de/paket-schweiz-eu",
+    "status": {
+      "de": "Stand 4. Oktober 2026: Der Ständerat hat das Paket in der Herbstsession 2026 angenommen und verlangt Volks- und Ständemehr (Bundesrat: nur Volksmehr). Als Nächstes berät der Nationalrat, voraussichtlich ab der Wintersession 2026. Ein Abstimmungstermin ist noch nicht festgelegt.",
+      "fr": "État au 4 octobre 2026 : le Conseil des États a adopté le paquet lors de la session d’automne 2026 et exige la double majorité du peuple et des cantons (Conseil fédéral : majorité du peuple). Le Conseil national suivra, probablement dès la session d’hiver 2026. La date de votation n’est pas fixée.",
+      "it": "Stato al 4 ottobre 2026: il Consiglio degli Stati ha approvato il pacchetto nella sessione autunnale 2026 e chiede la doppia maggioranza di popolo e Cantoni (Consiglio federale: solo maggioranza popolare). Seguirà il Consiglio nazionale, probabilmente dalla sessione invernale 2026. La data della votazione non è ancora fissata.",
+      "en": "As of 4 October 2026: the Council of States approved the package in the 2026 autumn session and requires a majority of both people and cantons (Federal Council: popular majority only). The National Council is next, probably from the 2026 winter session. No voting date has been set."
+    },
+    "redaktion": {
+      "de": "Positionen ohne öffentlich dokumentierten Beleg werden als «Keine Position dokumentiert» geführt. Seitenangaben beziehen sich auf die PDF-Fassung der Botschaft und werden vor der Veröffentlichung redaktionell geprüft."
+    }
+  },
+  "ui": {
+    "de": {
+      "brand": "Bilaterale III – EU-Paket im Überblick",
+      "sub": "Paket Schweiz–EU (Bilaterale III) – neutral und verständlich erklärt",
+      "heroTitle": "Was steht im Paket Schweiz–EU?",
+      "heroLead": "Rund 2000 Seiten Vertragswerk, gegliedert in Themen. Jede Kachel zeigt Ziel, heutige Lage, Chancen und Kompromisse aus Schweizer Sicht – mit Verweis auf die Botschaft des Bundesrats.",
+      "statusTitle": "Wo steht das Geschäft?",
+      "disclaimer": "Unabhängige Informationsplattform. Keine offizielle Seite des Bundes.",
+      "search": "Themen durchsuchen, z. B. «Spesen»",
+      "searchLabel": "Live-Suche",
+      "compass": "Akteurs-Kompass",
+      "compassLead": "Wie stehen Bundesrat, Kantone und Parteien zum Gesamtpaket? Wählen Sie einen Akteur für Details.",
+      "dafuer": "Dafür",
+      "dagegen": "Dagegen",
+      "vorbehalt": "Vorbehalt",
+      "offen": "Keine Position dokumentiert",
+      "supports": "Was sie unterstützen",
+      "criticizes": "Was sie kritisieren",
+      "none": "Keine Punkte dokumentiert.",
+      "modeLabel": "Themen ordnen",
+      "modeBranchen": "Nach Branchen & Alltag",
+      "modeSystem": "Nach Schweizer Systemfragen",
+      "modeAlle": "Alle Themen",
+      "haupt": "Hauptpaket",
+      "hauptHint": "Nicht separat abwählbar",
+      "optional": "Optionales Paket",
+      "optionalHint": "Separates Referendum möglich",
+      "optionalNote": "Jedes dieser drei Abkommen kann einzeln per Referendum abgelehnt werden. Alle treten aber erst in Kraft, wenn auch das Hauptpaket angenommen wird – ein Nein zu einem optionalen Abkommen stoppt also nicht das Hauptpaket, ein Nein zum Hauptpaket verhindert aber auch alle optionalen Abkommen (Botschaft, Ziff. 1.3.4).",
+      "begleit": "Begleitbeschluss",
+      "begleitHint": "Eigener Bundesbeschluss",
+      "ziel": "Ziel",
+      "statusQuo": "Status quo heute",
+      "pro": "Nutzen, Chancen & Marktzugang aus Schweizer Sicht",
+      "contra": "Kompromisse, Souveränität, Bürokratie & Gegenmassnahmen",
+      "kantone": "Föderalismus-Check: Auswirkungen auf Kantone & Gemeinden",
+      "positionen": "Parteipositionen zu diesem Punkt",
+      "quellen": "Paragraphen-Verankerung",
+      "results": "Themen",
+      "noResults": "Keine Themen gefunden. Versuchen Sie einen anderen Suchbegriff.",
+      "inArbeit": "Inhalt in Redaktion",
+      "inArbeitText": "Dieses Thema ist im Vertragswerk verankert und hier erfasst. Die Detailinhalte werden aus der Botschaft erarbeitet.",
+      "onlyDe": "Dieser Inhalt ist vorerst nur auf Deutsch verfügbar.",
+      "weitere": "Weitere Themen",
+      "alleFilter": "Alle Pakete",
+      "showTopic": "Zum Thema",
+      "reset": "Suche löschen",
+      "chapter": "Botschaft",
+      "sources": "Offizielle Quellen",
+      "copyright": "© 2026 bila3 · Neutrale Sachinformation zu den Bilateralen III",
+      "impressumLink": "Impressum & Haftungsausschluss",
+      "herausgeberLabel": "Herausgeber",
+      "herausgeberName": "Heidi",
+      "kontaktLabel": "Kontakt",
+      "kontaktWert": "heidi@alpenos.ch",
+      "haftungTitel": "Haftungsausschluss",
+      "haftungText1": "Die auf dieser Plattform bereitgestellten Inhalte wurden mit grösster Sorgfalt und auf Basis der offiziellen Publikationen der Schweizerischen Eidgenossenschaft (insbesondere der Botschaft des Bundesrats zum Paket Schweiz–EU) erstellt. Sie dienen ausschliesslich der sachlichen und neutralen Information der Öffentlichkeit.",
+      "haftungText2": "Trotz sorgfältiger Prüfung übernimmt die Herausgeberin keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen. Rechtsverbindlich sind ausschliesslich die offiziell veröffentlichten Dokumente und Gesetzestexte der Schweizerischen Eidgenossenschaft auf admin.ch.",
+      "urheberTitel": "Urheberrecht & Verlinkung",
+      "urheberText": "Alle Inhalte, Texte, Datenstrukturen und das Design dieser Plattform sind urheberrechtlich geschützt. Die Vervielfältigung, Bearbeitung oder Weiterverwendung der Inhalte auf anderen Webseiten ist ohne vorherige schriftliche Zustimmung nicht gestattet. Das Verlinken auf diese Webseite ist ausdrücklich erwünscht."
+    },
+    "fr": {
+      "brand": "Bilatérales III – Le paquet UE en bref",
+      "sub": "Paquet Suisse–UE (Bilatérales III) – expliqué de manière neutre et claire",
+      "heroTitle": "Que contient le paquet Suisse–UE ?",
+      "heroLead": "Quelque 2000 pages d’accords, classées par thèmes. Chaque fiche présente l’objectif, la situation actuelle, les opportunités et les compromis du point de vue suisse – avec renvoi au message du Conseil fédéral.",
+      "statusTitle": "Où en est le dossier ?",
+      "disclaimer": "Plateforme d’information indépendante. Pas un site officiel de la Confédération.",
+      "search": "Rechercher un thème, p. ex. « frais »",
+      "searchLabel": "Recherche",
+      "compass": "Boussole des acteurs",
+      "compassLead": "Quelle est la position du Conseil fédéral, des cantons et des partis ? Choisissez un acteur.",
+      "dafuer": "Pour",
+      "dagegen": "Contre",
+      "vorbehalt": "Réserves",
+      "offen": "Aucune position documentée",
+      "supports": "Ce qu’ils soutiennent",
+      "criticizes": "Ce qu’ils critiquent",
+      "none": "Aucun point documenté.",
+      "modeLabel": "Classer les thèmes",
+      "modeBranchen": "Par branche & quotidien",
+      "modeSystem": "Par questions institutionnelles",
+      "modeAlle": "Tous les thèmes",
+      "haupt": "Paquet principal",
+      "hauptHint": "Non dissociable",
+      "optional": "Paquet optionnel",
+      "optionalHint": "Référendum séparé possible",
+      "optionalNote": "Chacun de ces trois accords peut être rejeté séparément par référendum. Mais tous n’entrent en vigueur que si le paquet principal est également accepté – un non à un accord optionnel ne bloque donc pas le paquet principal, alors qu’un non au paquet principal empêche tous les accords optionnels (Message, ch. 1.3.4).",
+      "begleit": "Arrêté d’accompagnement",
+      "begleitHint": "Arrêté fédéral propre",
+      "ziel": "Objectif",
+      "statusQuo": "Situation actuelle",
+      "pro": "Avantages, opportunités & accès au marché pour la Suisse",
+      "contra": "Compromis, souveraineté, bureaucratie & contre-mesures",
+      "kantone": "Check fédéralisme : effets sur les cantons & communes",
+      "positionen": "Positions des partis sur ce point",
+      "quellen": "Ancrage juridique",
+      "results": "thèmes",
+      "noResults": "Aucun thème trouvé.",
+      "inArbeit": "Contenu en rédaction",
+      "inArbeitText": "Ce thème figure dans les accords. Le contenu détaillé est en cours de rédaction.",
+      "onlyDe": "Ce contenu n’est pour l’instant disponible qu’en allemand.",
+      "weitere": "Autres thèmes",
+      "alleFilter": "Tous les paquets",
+      "showTopic": "Voir le thème",
+      "reset": "Effacer",
+      "chapter": "Message",
+      "sources": "Sources officielles",
+      "copyright": "© 2026 bila3 · Information factuelle neutre sur les Bilatérales III",
+      "impressumLink": "Mentions légales & clause de non-responsabilité",
+      "herausgeberLabel": "Éditeur",
+      "kontaktLabel": "Contact",
+      "haftungTitel": "Clause de non-responsabilité",
+      "urheberTitel": "Droits d’auteur & liens"
+    },
+    "it": {
+      "brand": "Bilaterali III – Il pacchetto UE in sintesi",
+      "sub": "Pacchetto Svizzera–UE (Bilaterali III) – spiegato in modo neutrale e chiaro",
+      "heroTitle": "Cosa contiene il pacchetto Svizzera–UE?",
+      "heroLead": "Circa 2000 pagine di accordi, suddivise per temi. Ogni scheda mostra obiettivo, situazione attuale, opportunità e compromessi dal punto di vista svizzero – con rinvio al messaggio del Consiglio federale.",
+      "statusTitle": "A che punto è il dossier?",
+      "disclaimer": "Piattaforma d’informazione indipendente. Non è un sito ufficiale della Confederazione.",
+      "search": "Cerca un tema, p. es. «spese»",
+      "searchLabel": "Ricerca",
+      "compass": "Bussola degli attori",
+      "compassLead": "Qual è la posizione di Consiglio federale, Cantoni e partiti? Scegliete un attore.",
+      "dafuer": "A favore",
+      "dagegen": "Contro",
+      "vorbehalt": "Riserve",
+      "offen": "Nessuna posizione documentata",
+      "supports": "Cosa sostengono",
+      "criticizes": "Cosa criticano",
+      "none": "Nessun punto documentato.",
+      "modeLabel": "Ordinare i temi",
+      "modeBranchen": "Per settori & quotidiano",
+      "modeSystem": "Per questioni istituzionali",
+      "modeAlle": "Tutti i temi",
+      "haupt": "Pacchetto principale",
+      "hauptHint": "Non separabile",
+      "optional": "Pacchetto opzionale",
+      "optionalHint": "Referendum separato possibile",
+      "optionalNote": "Ognuno di questi tre accordi può essere respinto singolarmente tramite referendum. Tutti entrano però in vigore solo se viene accettato anche il pacchetto principale – un no a un accordo opzionale non blocca quindi il pacchetto principale, mentre un no al pacchetto principale impedisce tutti gli accordi opzionali (Messaggio, n. 1.3.4).",
+      "begleit": "Decreto accompagnatorio",
+      "begleitHint": "Decreto federale proprio",
+      "ziel": "Obiettivo",
+      "statusQuo": "Situazione attuale",
+      "pro": "Benefici, opportunità & accesso al mercato per la Svizzera",
+      "contra": "Compromessi, sovranità, burocrazia & contromisure",
+      "kantone": "Check federalismo: effetti su Cantoni & Comuni",
+      "positionen": "Posizioni dei partiti su questo punto",
+      "quellen": "Ancoraggio giuridico",
+      "results": "temi",
+      "noResults": "Nessun tema trovato.",
+      "inArbeit": "Contenuto in redazione",
+      "inArbeitText": "Questo tema è contenuto negli accordi. I dettagli sono in fase di redazione.",
+      "onlyDe": "Questo contenuto è per ora disponibile solo in tedesco.",
+      "weitere": "Altri temi",
+      "alleFilter": "Tutti i pacchetti",
+      "showTopic": "Vai al tema",
+      "reset": "Cancella",
+      "chapter": "Messaggio",
+      "sources": "Fonti ufficiali",
+      "copyright": "© 2026 bila3 · Informazione fattuale neutrale sulle Bilaterali III",
+      "impressumLink": "Note legali & esclusione di responsabilità",
+      "herausgeberLabel": "Editore",
+      "kontaktLabel": "Contatto",
+      "haftungTitel": "Esclusione di responsabilità",
+      "urheberTitel": "Diritti d’autore & link"
+    },
+    "en": {
+      "brand": "Bilaterals III – The EU package at a glance",
+      "sub": "Switzerland–EU package (Bilaterals III) – explained neutrally and clearly",
+      "heroTitle": "What is in the Switzerland–EU package?",
+      "heroLead": "Some 2,000 pages of agreements, organised by topic. Each card shows the goal, today’s situation, opportunities and trade-offs from a Swiss perspective – with a reference to the Federal Council’s dispatch.",
+      "statusTitle": "Where does it stand?",
+      "disclaimer": "Independent information platform. Not an official site of the Swiss Confederation.",
+      "search": "Search topics, e.g. “expenses”",
+      "searchLabel": "Search",
+      "compass": "Stakeholder compass",
+      "compassLead": "Where do the Federal Council, the cantons and the parties stand? Pick a stakeholder.",
+      "dafuer": "In favour",
+      "dagegen": "Against",
+      "vorbehalt": "Reservations",
+      "offen": "No documented position",
+      "supports": "What they support",
+      "criticizes": "What they criticise",
+      "none": "No points documented.",
+      "modeLabel": "Sort topics",
+      "modeBranchen": "By sector & daily life",
+      "modeSystem": "By Swiss system questions",
+      "modeAlle": "All topics",
+      "haupt": "Core package",
+      "hauptHint": "Cannot be voted on separately",
+      "optional": "Optional package",
+      "optionalHint": "Separate referendum possible",
+      "optionalNote": "Each of these three agreements can be rejected individually in a referendum. But all of them only enter into force if the main package is also approved – a no to an optional agreement does not stop the main package, whereas a no to the main package also prevents all optional agreements from entering into force (Dispatch, para. 1.3.4).",
+      "begleit": "Accompanying decree",
+      "begleitHint": "Separate federal decree",
+      "ziel": "Goal",
+      "statusQuo": "Status quo today",
+      "pro": "Benefits, opportunities & market access for Switzerland",
+      "contra": "Trade-offs, sovereignty, red tape & countermeasures",
+      "kantone": "Federalism check: impact on cantons & municipalities",
+      "positionen": "Party positions on this point",
+      "quellen": "Legal anchor",
+      "results": "topics",
+      "noResults": "No topics found.",
+      "inArbeit": "Content in preparation",
+      "inArbeitText": "This topic is part of the agreements. Detailed content is being prepared.",
+      "onlyDe": "This content is currently available in German only.",
+      "weitere": "Other topics",
+      "alleFilter": "All packages",
+      "showTopic": "Go to topic",
+      "reset": "Clear",
+      "chapter": "Dispatch",
+      "sources": "Official sources",
+      "copyright": "© 2026 bila3 · Neutral factual information on the Bilaterals III",
+      "impressumLink": "Imprint & disclaimer",
+      "herausgeberLabel": "Publisher",
+      "kontaktLabel": "Contact",
+      "haftungTitel": "Disclaimer",
+      "urheberTitel": "Copyright & linking"
+    }
+  },
+  "tags": {
+    "kmu": {
+      "de": "KMU",
+      "fr": "PME",
+      "it": "PMI",
+      "en": "SMEs"
+    },
+    "kantone": {
+      "de": "Kanton & Gemeinde",
+      "fr": "Canton & commune",
+      "it": "Cantone & Comune",
+      "en": "Cantons & municipalities"
+    },
+    "arbeitnehmende": {
+      "de": "Arbeitnehmende",
+      "fr": "Salariés",
+      "it": "Lavoratori",
+      "en": "Employees"
+    },
+    "export": {
+      "de": "Exportindustrie",
+      "fr": "Industrie d’exportation",
+      "it": "Industria d’esportazione",
+      "en": "Export industry"
+    },
+    "stimmvolk": {
+      "de": "Stimmbevölkerung",
+      "fr": "Électorat",
+      "it": "Elettorato",
+      "en": "Voters"
+    },
+    "konsum": {
+      "de": "Konsumierende",
+      "fr": "Consommateurs",
+      "it": "Consumatori",
+      "en": "Consumers"
+    },
+    "verkehr": {
+      "de": "Verkehr",
+      "fr": "Transports",
+      "it": "Trasporti",
+      "en": "Transport"
+    },
+    "energie": {
+      "de": "Energie",
+      "fr": "Énergie",
+      "it": "Energia",
+      "en": "Energy"
+    },
+    "landwirtschaft": {
+      "de": "Landwirtschaft",
+      "fr": "Agriculture",
+      "it": "Agricoltura",
+      "en": "Agriculture"
+    },
+    "forschung": {
+      "de": "Forschung & Bildung",
+      "fr": "Recherche & formation",
+      "it": "Ricerca & formazione",
+      "en": "Research & education"
+    },
+    "bundesfinanzen": {
+      "de": "Bundesfinanzen",
+      "fr": "Finances fédérales",
+      "it": "Finanze federali",
+      "en": "Federal finances"
+    },
+    "gesundheit": {
+      "de": "Gesundheit",
+      "fr": "Santé",
+      "it": "Salute",
+      "en": "Health"
+    }
+  },
+  "gruppen": {
+    "branchen": [
+      {
+        "id": "industrie",
+        "label": {
+          "de": "Industrie & KMU",
+          "fr": "Industrie & PME",
+          "it": "Industria & PMI",
+          "en": "Industry & SMEs"
+        }
+      },
+      {
+        "id": "banken",
+        "label": {
+          "de": "Banken & Finanzplatz",
+          "fr": "Banques & place financière",
+          "it": "Banche & piazza finanziaria",
+          "en": "Banks & financial centre"
+        },
+        "hinweis": {
+          "de": "Das Paket enthält kein Abkommen über Finanzdienstleistungen. Banken sind vor allem indirekt betroffen, etwa über die Exportwirtschaft."
+        }
+      },
+      {
+        "id": "gesundheit",
+        "label": {
+          "de": "Gesundheit",
+          "fr": "Santé",
+          "it": "Salute",
+          "en": "Health"
+        }
+      },
+      {
+        "id": "energie",
+        "label": {
+          "de": "Energie",
+          "fr": "Énergie",
+          "it": "Energia",
+          "en": "Energy"
+        }
+      },
+      {
+        "id": "landwirtschaft",
+        "label": {
+          "de": "Landwirtschaft & Ernährung",
+          "fr": "Agriculture & alimentation",
+          "it": "Agricoltura & alimentazione",
+          "en": "Agriculture & food"
+        }
+      },
+      {
+        "id": "lohn",
+        "label": {
+          "de": "Lohn & Arbeit",
+          "fr": "Salaires & travail",
+          "it": "Salari & lavoro",
+          "en": "Wages & work"
+        }
+      },
+      {
+        "id": "kantone",
+        "label": {
+          "de": "Kantone & Gemeinden",
+          "fr": "Cantons & communes",
+          "it": "Cantoni & Comuni",
+          "en": "Cantons & municipalities"
+        }
+      }
+    ],
+    "system": [
+      {
+        "id": "souveraenitaet",
+        "label": {
+          "de": "Souveränität",
+          "fr": "Souveraineté",
+          "it": "Sovranità",
+          "en": "Sovereignty"
+        }
+      },
+      {
+        "id": "foederalismus",
+        "label": {
+          "de": "Föderalismus",
+          "fr": "Fédéralisme",
+          "it": "Federalismo",
+          "en": "Federalism"
+        }
+      },
+      {
+        "id": "demokratie",
+        "label": {
+          "de": "Direkte Demokratie",
+          "fr": "Démocratie directe",
+          "it": "Democrazia diretta",
+          "en": "Direct democracy"
+        }
+      },
+      {
+        "id": "finanzen",
+        "label": {
+          "de": "Finanzen",
+          "fr": "Finances",
+          "it": "Finanze",
+          "en": "Finances"
+        }
+      }
+    ]
+  },
+  "akteure": [
+    {
+      "id": "bundesrat",
+      "kurz": "BR",
+      "name": {
+        "de": "Bundesrat",
+        "fr": "Conseil fédéral",
+        "it": "Consiglio federale",
+        "en": "Federal Council"
+      },
+      "status": "dafuer",
+      "begruendung": {
+        "de": "Hat das Paket am 13. März 2026 dem Parlament vorgelegt. Sieht darin die Sicherung des bilateralen Wegs und des Marktzugangs."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Fakultatives Referendum (nur Volksmehr)"
+          }
+        },
+        {
+          "thema": "lohnschutz",
+          "text": {
+            "de": "Lohnschutz mit 14 inländischen Massnahmen"
+          }
+        },
+        {
+          "thema": "beihilfen",
+          "text": {
+            "de": "Beihilfeüberwachung durch eine Schweizer Behörde"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "pfz",
+          "text": {
+            "de": "Zusätze des Ständerats wie die Zuwanderungsabgabe (hatte davor gewarnt)"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "EDA, Medienmitteilung 13.03.2026",
+        "url": "https://www.europa.eda.admin.ch/de/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf"
+      }
+    },
+    {
+      "id": "kdk",
+      "kurz": "KdK",
+      "name": {
+        "de": "KdK (Kantone)",
+        "fr": "CdC (cantons)",
+        "it": "CdC (Cantoni)",
+        "en": "CdC (cantons)"
+      },
+      "status": "dafuer",
+      "begruendung": {
+        "de": "Am 24. Oktober 2025 mit 21 zu 4 Stimmen (1 Enthaltung) für das Paket. Referendumsfrage gespalten: 15 Kantone für fakultatives, 10 für obligatorisches Referendum."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Stabile Beziehungen und gesicherter Marktzugang"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Fordert stärkeren, laufenden Einbezug der Kantone bei EU-Rechtsübernahme"
+          }
+        },
+        {
+          "thema": "beihilfen",
+          "text": {
+            "de": "Fordert Bundesunterstützung bei betroffenen kantonalen Aufgaben"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "KdK, Medienmitteilung 24.10.2025",
+        "url": "https://kdk.ch/aktuell/medienmitteilungen/details/die-kantone-unterstuetzen-das-abkommenspaket-schweiz-eu"
+      }
+    },
+    {
+      "id": "svp",
+      "kurz": "SVP",
+      "name": {
+        "de": "SVP",
+        "fr": "UDC",
+        "it": "UDC",
+        "en": "SVP"
+      },
+      "status": "dagegen",
+      "begruendung": {
+        "de": "Lehnt das Paket als «Unterwerfungsvertrag» ab, insbesondere die institutionellen Elemente. Verlangt Volks- und Ständemehr."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Volks- und Ständemehr für das Paket"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Dynamische Rechtsübernahme und Rolle des EuGH"
+          }
+        },
+        {
+          "thema": "pfz",
+          "text": {
+            "de": "Zuwanderung unter der Personenfreizügigkeit"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "Plattform J, 31.10.2025",
+        "url": "https://www.plattformj.ch/artikel/237372/"
+      }
+    },
+    {
+      "id": "sp",
+      "kurz": "SP",
+      "name": {
+        "de": "SP",
+        "fr": "PS",
+        "it": "PS",
+        "en": "SP"
+      },
+      "status": "dafuer",
+      "begruendung": {
+        "de": "Unterstützt das Paket, verlangt aber einen unverwässerten Lohnschutz. Zieht nach dem Ständerat eine «gemischte Bilanz»."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "lohnschutz",
+          "text": {
+            "de": "14 Lohnschutzmassnahmen inkl. Massnahme 14"
+          }
+        },
+        {
+          "thema": "programme",
+          "text": {
+            "de": "Volle Assoziierung an Erasmus+"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "pfz",
+          "text": {
+            "de": "Zuwanderungsabgabe und verschärfte Schutzklausel des Ständerats"
+          }
+        },
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Ständemehr-Pflicht"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "SP Schweiz, 01.10.2026",
+        "url": "https://www.sp-ps.ch/artikel/bilaterale-iii-sp-zieht-gemischte-bilanz-nach-den-entscheiden-des-staenderates/"
+      }
+    },
+    {
+      "id": "fdp",
+      "kurz": "FDP",
+      "name": {
+        "de": "FDP",
+        "fr": "PLR",
+        "it": "PLR",
+        "en": "FDP"
+      },
+      "status": "dafuer",
+      "begruendung": {
+        "de": "Die Delegierten sagten Ja zum Paket und Nein zum Ständemehr. Die Partei fordert mehr Mitsprache von Parlament und Kantonen."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Fakultatives Referendum (nur Volksmehr)"
+          }
+        },
+        {
+          "thema": "pfz",
+          "text": {
+            "de": "Zuwanderungsabgabe (FDP-Vorschlag)"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Zu später Einbezug von Parlament und Kantonen bei Rechtsübernahmen"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "SRF, FDP-Delegiertenversammlung",
+        "url": "https://www.srf.ch/news/schweiz/richtungsweisender-entscheid-fdp-delegierte-ja-zum-eu-vertragspaket-und-nein-zu-staendemehr"
+      }
+    },
+    {
+      "id": "mitte",
+      "kurz": "Mitte",
+      "name": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "status": "vorbehalt",
+      "begruendung": {
+        "de": "Ja mit Aber: hält das Paket für «akzeptabel», verlangt innenpolitische Nachbesserungen bei Zuwanderung und demokratischer Kontrolle."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Ständemehr (Haltung des Parteipräsidenten)"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "pfz",
+          "text": {
+            "de": "Fehlende innenpolitische Absicherung bei der Zuwanderung"
+          }
+        },
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Ungenügende demokratische Kontrolle bei Rechtsübernahmen"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "Die Mitte, Stellungnahme",
+        "url": "https://die-mitte.ch/bilaterale-iii-die-mitte-verlangt-innenpolitische-nachbesserungen-fuer-eine-starke-eigenstaendige-schweiz/"
+      }
+    },
+    {
+      "id": "glp",
+      "kurz": "GLP",
+      "name": {
+        "de": "GLP",
+        "fr": "PVL",
+        "it": "PVL",
+        "en": "GLP"
+      },
+      "status": "dafuer",
+      "begruendung": {
+        "de": "Sieht im Paket die Sicherung von Marktzugang und Mitsprache der Schweiz. Unterstützt das fakultative Referendum."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "institutionell",
+          "text": {
+            "de": "Mitsprache und Rechtssicherheit"
+          }
+        },
+        {
+          "thema": "mra",
+          "text": {
+            "de": "Gesicherter Marktzugang"
+          }
+        }
+      ],
+      "kritisiert": [],
+      "quelle": {
+        "label": "Plattform J, 31.10.2025",
+        "url": "https://www.plattformj.ch/artikel/237372/"
+      }
+    },
+    {
+      "id": "gruene",
+      "kurz": "Grüne",
+      "name": {
+        "de": "Grüne",
+        "fr": "Les Vert-e-s",
+        "it": "I Verdi",
+        "en": "Greens"
+      },
+      "status": "dafuer",
+      "begruendung": {
+        "de": "Unterstützen das Paket inklusive Stromabkommen als Beitrag zur Energiewende. Forderten Nachbesserungen bei Strom und Schutzklausel."
+      },
+      "unterstuetzt": [
+        {
+          "thema": "strom",
+          "text": {
+            "de": "Stromabkommen für Versorgungssicherheit und Energiewende"
+          }
+        }
+      ],
+      "kritisiert": [
+        {
+          "thema": "pfz",
+          "text": {
+            "de": "Ausgestaltung der Schutzklausel"
+          }
+        },
+        {
+          "thema": "strom",
+          "text": {
+            "de": "Nachbesserungen beim Stromabkommen"
+          }
+        }
+      ],
+      "quelle": {
+        "label": "Grüne Schweiz, Medienmitteilung",
+        "url": "https://gruene.ch/medienmitteilungen/bilaterale-das-stromabkommen-hilft-der-energiewende"
+      }
+    }
+  ],
+  "themen": [
+    {
+      "id": "institutionell",
+      "icon": "scale",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.1",
+      "tags": [
+        "stimmvolk",
+        "export",
+        "kantone"
+      ],
+      "branchen": [
+        "industrie",
+        "kantone"
+      ],
+      "system": [
+        "souveraenitaet",
+        "demokratie"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Dynamische Rechtsübernahme & Schiedsgericht",
+          "teaser": "Wie die Schweiz künftig EU-Recht übernimmt – und wer bei Streit entscheidet.",
+          "ziel": "Die bestehenden Binnenmarktabkommen sollen aktuell bleiben und Streitigkeiten nach festen, für beide Seiten verbindlichen Regeln gelöst werden.",
+          "statusQuo": "Die Abkommen sind heute statisch. Änderungen gibt es nur, wenn beide Seiten im Gemischten Ausschuss zustimmen. Ein geregeltes Streitbeilegungsverfahren fehlt.",
+          "pro": [
+            "Keine Automatik: Ein neuer EU-Rechtsakt wird für die Schweiz erst verbindlich, wenn das Schweizer Genehmigungsverfahren abgeschlossen ist – inklusive Referendum.",
+            "Mitgestaltung (Decision Shaping): Die Schweiz kann an der Ausarbeitung relevanter EU-Rechtsakte teilnehmen.",
+            "Ausnahmen in heiklen Bereichen, etwa eine Non-Regressions-Klausel beim Lohnschutz.",
+            "Paritätisches Schiedsgericht: Der EuGH entscheidet nie über einen Streitfall, er legt nur EU-Recht aus, wenn das Schiedsgericht ihn anruft.",
+            "Rechtssicherheit für die Exportwirtschaft, weil Abkommen wieder aktualisiert werden."
+          ],
+          "contra": [
+            "Die Schweiz übernimmt EU-Recht, das sie mitgestalten, aber nicht mitbeschliessen kann. Betroffen sind 94 EU-Rechtsakte im Paket.",
+            "Sagt das Volk Nein zu einer Übernahme, kann die EU nach einem Schiedsverfahren verhältnismässige Ausgleichsmassnahmen ergreifen.",
+            "Die EuGH-Auslegung von EU-Recht ist für das Schiedsgericht verbindlich.",
+            "Kritiker befürchten eine Stärkung der Regierung zulasten von Parlament, Kantonen und Zivilgesellschaft.",
+            "Gegenmassnahme: Ausgleichsmassnahmen sind auf die Binnenmarktabkommen beschränkt, frühestens drei Monate nach Notifizierung möglich und vom Schiedsgericht überprüfbar."
+          ],
+          "kantone": [
+            "Wo EU-Recht kantonale Zuständigkeiten berührt, setzen die Kantone es selbst um.",
+            "Der Bundesrat hat eine Vereinbarung zur Mitwirkung der Kantone genehmigt; sie sollen früh in die Mitgestaltung einbezogen werden.",
+            "Die KdK verlangt einen gestärkten, laufenden Einbezug."
+          ],
+          "positionen": {
+            "svp": {
+              "status": "dagegen",
+              "text": "Bezeichnet das Paket als «Unterwerfungsvertrag», lehnt die institutionellen Elemente ab und verlangt Volks- und Ständemehr."
+            },
+            "sp": {
+              "status": "dafuer",
+              "text": "Unterstützt die institutionelle Lösung. Lehnt das Ständemehr als verfassungsrechtlich nicht begründet ab."
+            },
+            "fdp": {
+              "status": "dafuer",
+              "text": "Unterstützt die Lösung, verlangt aber, dass Parlament und Kantone früher in Rechtsübernahmen einbezogen werden. Nein zum Ständemehr."
+            },
+            "mitte": {
+              "status": "vorbehalt",
+              "text": "Fordert mehr demokratische Kontrolle bei Rechtsübernahmen. Der Parteipräsident setzt sich für das Ständemehr ein."
+            },
+            "glp": {
+              "status": "dafuer",
+              "text": "Sieht im Paket gesicherten Marktzugang und Mitsprache. Für das fakultative Referendum."
+            },
+            "gruene": {
+              "status": "offen",
+              "text": "Unterstützen das Gesamtpaket; keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "kdk": {
+              "status": "dafuer",
+              "text": "Unterstützt das Paket, verlangt aber gestärkten Einbezug der Kantone. Referendumsfrage gespalten (15 zu 10)."
+            }
+          },
+          "quellen": [
+            {
+              "ref": "ab S. 74",
+              "url": "assets/Botschaft_DE.pdf#page=74",
+              "titel": "Botschaft Paket Schweiz–EU, Kap. 2.1 Institutionelle Elemente"
+            },
+            {
+              "ref": "S. 91–104",
+              "url": "assets/Botschaft_DE.pdf#page=91",
+              "titel": "Botschaft, Kap. 2.1 – Dynamische Rechtsübernahme & Decision Shaping"
+            },
+            {
+              "ref": "S. 107–117",
+              "url": "assets/Botschaft_DE.pdf#page=107",
+              "titel": "Botschaft, Kap. 2.1 – Streitbeilegung & Ausgleichsmassnahmen"
+            },
+            {
+              "ref": "Bundesrat",
+              "url": "https://www.europa.eda.admin.ch/dam/de/sd-web/KOzaVT8Bhqos/01%20Faktenblatt%20Institutionelle%20Elemente_DE%20.pdf",
+              "titel": "Faktenblatt Institutionelle Elemente, 13.03.2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beihilfen",
+      "icon": "landmark",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.2",
+      "tags": [
+        "kantone",
+        "verkehr",
+        "energie",
+        "kmu"
+      ],
+      "branchen": [
+        "kantone",
+        "energie"
+      ],
+      "system": [
+        "foederalismus",
+        "finanzen"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Staatliche Beihilfen & Gemeindeautonomie",
+          "teaser": "Subventionen in Luft- und Landverkehr sowie Strom werden künftig von der Schweiz überwacht.",
+          "ziel": "Gleich lange Spiesse auf dem gemeinsamen Markt: Staatliche Unterstützungen sollen in den betroffenen Bereichen nach gleichwertigen Regeln geprüft werden.",
+          "statusQuo": "Heute überwacht die Wettbewerbskommission (WEKO) staatliche Beihilfen nur im Luftverkehr. In anderen Bereichen gibt es keine systematische Überwachung.",
+          "pro": [
+            "Eng begrenzt: Die Regeln gelten nur für Luftverkehr, Landverkehr und Strom – nicht für das Freihandelsabkommen von 1972.",
+            "Zwei-Pfeiler-Ansatz: Eine Schweizer Behörde (neue Beihilfekammer in der WEKO) überwacht, nicht die EU-Kommission.",
+            "Übergangsfrist für bestehende Beihilfen: Vor und innerhalb von fünf Jahren nach Inkrafttreten gewährte Beihilfen werden nicht sofort und nicht rückwirkend überprüft – die Überwachungsbehörde erstellt erst danach einen Überblick und beurteilt sie fortlaufend neu.",
+            "Nur Schweizer Gerichte entscheiden verbindlich über Unzulässigkeit und Rückforderung, letztinstanzlich das Bundesgericht.",
+            "Service-public-Leistungen bleiben zulässig; rein inländischer öffentlicher Verkehr ist nicht betroffen."
+          ],
+          "contra": [
+            "Neue Meldepflicht: Bund, Kantone und Gemeinden müssen geplante Beihilfen im Geltungsbereich anmelden.",
+            "Mehr Aufwand: Ein neues Bundesgesetz und eine neue Überwachungsstelle sind nötig.",
+            "Rechtsrisiko: Auch Konkurrenten können gegen eine Beihilfe Beschwerde einreichen.",
+            "Schwellenwerte und Ausnahmen werden im Faktenblatt nicht beziffert; die Details folgen aus der Umsetzungsgesetzgebung.",
+            "Keine dauerhafte Ausnahme für bestehende Beihilfen: Nach Ablauf der Übergangsfrist werden auch sie laufend auf Vereinbarkeit überprüft und können bei Unvereinbarkeit beanstandet oder angepasst werden müssen.",
+            "Gegenmassnahme: Das System soll die Kompetenzen von Kantonen, Bundesversammlung und Bundesrat ausdrücklich respektieren."
+          ],
+          "kantone": [
+            "Kantone und Gemeinden sind direkt betroffen: Auch sie melden geplante Beihilfen im Geltungsbereich an.",
+            "Rein lokaler und regionaler Verkehr ohne grenzüberschreitenden Bezug bleibt ausgenommen.",
+            "Der Strombereich ist nur betroffen, wenn das (separat abstimmbare) Stromabkommen angenommen wird.",
+            "Im Ständerat wurden föderalistische Bedenken zu den Meldepflichten geäussert."
+          ],
+          "positionen": {
+            "svp": {
+              "status": "offen",
+              "text": "Lehnt das Gesamtpaket ab; keine gesonderte Position zur Beihilfeüberwachung dokumentiert."
+            },
+            "sp": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "fdp": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "mitte": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "glp": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "gruene": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "kdk": {
+              "status": "vorbehalt",
+              "text": "Unterstützt das Paket, verlangt aber Bundesunterstützung bei betroffenen kantonalen Aufgaben und die Berücksichtigung kantonaler Interessen."
+            }
+          },
+          "quellen": [
+            {
+              "ref": "ab S. 144",
+              "url": "assets/Botschaft_DE.pdf#page=144",
+              "titel": "Botschaft Paket Schweiz–EU, Kap. 2.2 Staatliche Beihilfen"
+            },
+            {
+              "ref": "S. 158–161",
+              "url": "assets/Botschaft_DE.pdf#page=158",
+              "titel": "Botschaft, Kap. 2.2.6 – Zwei-Pfeiler-Ansatz & bestehende Beihilfen"
+            },
+            {
+              "ref": "ab S. 164",
+              "url": "assets/Botschaft_DE.pdf#page=164",
+              "titel": "Botschaft, Kap. 2.2 – Beihilfeüberwachungsgesetz"
+            },
+            {
+              "ref": "Bundesrat",
+              "url": "https://www.europa.eda.admin.ch/dam/de/sd-web/rPPvQ7VAvsAV/02%20Faktenblatt%20Staatliche%20Beihilfen_DE%20.pdf",
+              "titel": "Faktenblatt Staatliche Beihilfen, 13.03.2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lohnschutz",
+      "icon": "briefcase",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.3",
+      "tags": [
+        "arbeitnehmende",
+        "kmu",
+        "kantone"
+      ],
+      "branchen": [
+        "lohn",
+        "industrie"
+      ],
+      "system": [
+        "foederalismus"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Lohnschutz & Flankierende Massnahmen",
+          "teaser": "Gleicher Lohn am gleichen Ort: Meldefrist, Kaution, Spesen und 14 inländische Massnahmen.",
+          "ziel": "Der Grundsatz «gleicher Lohn für gleiche Arbeit am gleichen Ort» soll auch für Firmen gelten, die Personal aus der EU in die Schweiz entsenden.",
+          "statusQuo": "Seit 2004 sichern die Flankierenden Massnahmen (FlaM) die Löhne: 8 Kalendertage Voranmeldung, Kautionen sowie Kontrollen durch paritätische Kommissionen und Kantone.",
+          "pro": [
+            "Non-Regressions-Klausel: Verschlechtert künftiges EU-Recht das vereinbarte Schutzniveau erheblich, muss die Schweiz es nicht übernehmen.",
+            "Voranmeldung bleibt in Risikobranchen erhalten (4 Arbeitstage), ergänzt durch ein digitalisiertes Meldeverfahren.",
+            "Dokumentationspflicht für Selbständige gegen Scheinselbständigkeit bleibt abgesichert.",
+            "Das duale Kontrollsystem mit Sozialpartnern und Kantonen bleibt bestehen; Sanktionen aus allgemeinverbindlichen GAV gelten weiter.",
+            "Spesen: Deckt die Regel des Herkunftslands die Schweizer Spesen nicht, muss die Differenz bezahlt werden.",
+            "14 inländische Massnahmen, von den Sozialpartnern ausgehandelt; der Ständerat hat sie im September 2026 bestätigt."
+          ],
+          "contra": [
+            "Kürzere Frist: Aus 8 Kalendertagen werden 4 Arbeitstage, und dies nur noch in Risikobranchen.",
+            "Kaution nur noch im Wiederholungsfall, wenn eine Firma frühere Verpflichtungen nicht beglichen hat.",
+            "EU-Spesenregel (Herkunftsort) braucht eine Schweizer Zusatzregel – mehr Regelungsaufwand für Firmen.",
+            "Massnahme 14 (Kündigungsschutz für Personalvertretungen ab 50 Mitarbeitenden) ist umstritten; Teile des bürgerlichen Lagers lehnten sie ab, der Ständerat nahm sie mit 26 zu 19 Stimmen an.",
+            "Zusammenarbeit mit EU-Behörden läuft künftig über das Binnenmarkt-Informationssystem (IMI) – neue Abläufe für Vollzugsstellen."
+          ],
+          "kantone": [
+            "Die Kantone kontrollieren weiterhin mit, zusammen mit den paritätischen Kommissionen.",
+            "Das Meldeverfahren wird digitalisiert und zentralisiert, um die kürzere Frist auszugleichen.",
+            "Neue Abläufe im Vollzug durch den Informationsaustausch über IMI."
+          ],
+          "positionen": {
+            "svp": {
+              "status": "offen",
+              "text": "Lehnt das Gesamtpaket ab; keine gesonderte Position zu den 14 Massnahmen dokumentiert."
+            },
+            "sp": {
+              "status": "dafuer",
+              "text": "Lohnschutz ist eine rote Linie. Begrüsst, dass der Ständerat das Sozialpartner-Paket inklusive Massnahme 14 bestätigt hat."
+            },
+            "fdp": {
+              "status": "offen",
+              "text": "Keine offizielle Position zu den 14 Massnahmen dokumentiert. Teile des bürgerlichen Lagers lehnten Massnahme 14 in der Kommission ab."
+            },
+            "mitte": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "glp": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "gruene": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesem Detailpunkt dokumentiert."
+            },
+            "kdk": {
+              "status": "offen",
+              "text": "Kantone sind für den Vollzug mitverantwortlich; keine gesonderte KdK-Position zu den 14 Massnahmen dokumentiert."
+            }
+          },
+          "quellen": [
+            {
+              "ref": "ab S. 266",
+              "url": "assets/Botschaft_DE.pdf#page=266",
+              "titel": "Botschaft Paket Schweiz–EU, Kap. 2.3 Personenfreizügigkeit"
+            },
+            {
+              "ref": "S. 289–290",
+              "url": "assets/Botschaft_DE.pdf#page=289",
+              "titel": "Botschaft, Kap. 2.3.5.2.1 – Lohnschutz im Änderungsprotokoll"
+            },
+            {
+              "ref": "S. 330–333",
+              "url": "assets/Botschaft_DE.pdf#page=330",
+              "titel": "Botschaft, Kap. 2.3.7.1.2 – Inländische Massnahmen Lohnschutz (Voranmeldefrist, Kaution, Spesen)"
+            },
+            {
+              "ref": "30.09.2026",
+              "url": "https://www.arbeitgeber.ch/allgemein/bilaterale-iii-staenderat-stuetzt-sozialpartnerschaftlich-erarbeitete-loesungen-beim-lohnschutz/",
+              "titel": "Schweizerischer Arbeitgeberverband – Ständerat stützt sozialpartnerschaftlich erarbeitete Lösungen beim Lohnschutz (Massnahme 14, 26:19 Stimmen)"
+            },
+            {
+              "ref": "Bundesrat",
+              "url": "https://www.europa.eda.admin.ch/dam/de/sd-web/LKVZW4i2ho87/004%20Faktenblatt%20PFZ%20Lohnschutz%20(DE).pdf",
+              "titel": "Faktenblatt Personenfreizügigkeit – Lohnschutz"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pfz",
+      "icon": "users",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.3",
+      "tags": [
+        "arbeitnehmende",
+        "kantone"
+      ],
+      "branchen": [
+        "lohn",
+        "kantone"
+      ],
+      "system": [
+        "souveraenitaet",
+        "finanzen"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Personenfreizügigkeit & Zuwanderung",
+          "teaser": "Teilweise Übernahme der Unionsbürgerrichtlinie, neue Schutzklausel, Ausnahmen etwa bei Ausschaffungen.",
+          "ziel": "Die Regeln zur Personenfreizügigkeit (FZA) sollen aktualisiert und an die seit 2004 in der EU geltende Unionsbürgerrichtlinie (2004/38/EG) angeglichen werden – unter Wahrung der Arbeitsmarktorientierung der Zuwanderung, des Schweizer Verfassungsrechts zur Landesverweisung straffälliger Ausländerinnen und Ausländer, und ergänzt durch eine neu konkretisierte, von der Schweiz eigenständig auslösbare Schutzklausel.",
+          "statusQuo": "Das FZA ist seit 2002 in Kraft; sein Anhang I (Zuwanderungsbestimmungen) wurde seither – ausser bei der Ausweitung auf neue EU-Mitgliedstaaten – nicht mehr angepasst, während die EU ihr Recht mit der Unionsbürgerrichtlinie weiterentwickelt hat. Ende 2025 lebten über 1,6 Mio. EU-Staatsangehörige in der Schweiz (dazu rund 400 000 Grenzgängerinnen und Grenzgänger Ende 2024), während rund 466 000 Schweizerinnen und Schweizer in der EU wohnhaft sind. Der Anteil der wegen Erwerbstätigkeit Eingewanderten stieg von 53 % (2002) auf 70 % (2025). Die geltende allgemeine Schutzklausel (Art. 14 Abs. 2 FZA) wurde bisher nie konkret ausgestaltet und nie angewendet.",
+          "pro": [
+            "Drei verhandelte Ausnahmen bleiben bestehen: Das Daueraufenthaltsrecht gilt in der Schweiz – anders als in der EU – nur für Erwerbstätige (Zeiten vollständiger Sozialhilfeabhängigkeit ab sechs Monaten zählen nicht an die Fünfjahresfrist); die strafrechtliche Landesverweisung richtet sich weiterhin unverändert nach Schweizer Recht (Art. 66a ff. StGB); für biometrische Identitätskarten gilt eine einjährige Übergangsfrist nach Inkrafttreten.",
+            "Neu konkretisierte Schutzklausel (Art. 14a FZA): Die Schweiz kann bei schwerwiegenden wirtschaftlichen oder sozialen Problemen eigenständig – ohne Zustimmung der EU – ein Schiedsgerichtsverfahren (ordentlich oder dringlich) auslösen; sie gilt für den gesamten FZA-Geltungsbereich inklusive Lohnschutz und übertrifft damit laut Bundesrat das ursprüngliche Verhandlungsmandat.",
+            "Arbeitsmarktorientierung bleibt gewahrt: Alle drei im Verhandlungsmandat vom 8. März 2024 gesetzten Ziele (Erwerbsausrichtung der Migration, Wahrung der Verfassungsbestimmungen zur Landesverweisung, Beibehaltung des Meldeverfahrens für Kurzaufenthalte) wurden laut Bundesrat vollständig erreicht.",
+            "Kantone erhalten ein eigenes Antragsrecht: Ein Kanton kann beim Bundesrat die Prüfung einer Schutzklausel-Auslösung beantragen und eigene regionale Schutzmassnahmen vorschlagen; vor einem Entscheid müssen Parlament, Kantone und Sozialpartner konsultiert werden.",
+            "Gleichbehandlung bei Studiengebühren wird zugunsten der Kantone ausgeglichen: Der Bund deckt künftig 100 % der Mindereinnahmen betroffener kantonaler Hochschulen, nachdem Kantone in der Vernehmlassung eine Erhöhung des ursprünglich vorgesehenen Bundesanteils von 50 % verlangt hatten.",
+            "Breite Unterstützung in der Vernehmlassung: 91 Teilnehmende befürworteten die Aufdatierung im Zuwanderungsbereich, nur 27 lehnten sie ab; KdK und fast alle Kantone (ausser Schwyz und Nidwalden) sprachen sich dafür aus."
+          ],
+          "contra": [
+            "Die dynamische Rechtsübernahme gilt neu auch für die Personenfreizügigkeit: Künftige Weiterentwicklungen der Unionsbürgerrichtlinie werden – ausserhalb der vereinbarten Ausnahmen – integriert, sobald sie EU-intern beschlossen sind.",
+            "Das Überschreiten der definierten Schwellenwerte (Nettozuwanderung, Zunahme der Grenzgängerbeschäftigung, Arbeitslosigkeit, Sozialhilfebezug) löst die Schutzklausel nicht automatisch aus – zuerst muss eine umfassende Analyse belegen, dass tatsächlich schwerwiegende Probleme vorliegen.",
+            "Löst die Schweiz die Schutzklausel entgegen einem negativen Schiedsgerichtsentscheid trotzdem aus, kann die EU ihrerseits ein Streitbeilegungsverfahren mit möglichen Ausgleichsmassnahmen in den Binnenmarktabkommen anstreben.",
+            "27 Vernehmlassungsteilnehmende lehnten die Vorlage im Zuwanderungsbereich ab, darunter als einzige Partei die SVP sowie – anders als die übrigen Wirtschaftsdachverbände – der Gewerbeverband (SGV) und der Bauernverband (SBV).",
+            "Zusätzlicher Vollzugsaufwand für die Kantone: Mehrere Kantone wiesen in der Vernehmlassung darauf hin, dass die Arbeitsbelastung der zuständigen kantonalen Behörden durch das Änderungsprotokoll zunehmen werde."
+          ],
+          "kantone": [
+            "Eine technische Arbeitsgruppe Bund–Kantone (KdK, VDK, SODK, KKJPD sowie die Fachverbände VKM und VSAA) war während der gesamten Verhandlungen laufend in Umsetzungs- und Vollzugsfragen eingebunden.",
+            "Vor einem Bundesratsentscheid zur Schutzklausel müssen die Kantone konsultiert werden; ein einzelner Kanton kann zudem selbst die Prüfung einer Auslösung beantragen, wenn im eigenen Kantonsgebiet schwerwiegende Probleme bestehen, und eigene regionale Schutzmassnahmen vorschlagen.",
+            "Der Bund übernimmt künftig 100 % der Mindereinnahmen kantonaler Hochschulen aus der neuen Gleichbehandlung bei Studiengebühren – eine direkte Forderung der Kantone aus der Vernehmlassung (ursprünglicher Vorschlag: 50 %).",
+            "Mehrere Kantone meldeten in der Vernehmlassung eine höhere künftige Arbeitsbelastung bei Vollzug und Kontrolle; KdK und die Mehrheit der Kantone unterstützten die Vorlage dennoch, mit Ausnahme von Schwyz und Nidwalden."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Als einzige Partei lehnte die SVP das Änderungsprotokoll zur Personenfreizügigkeit in der Vernehmlassung ab." },
+            "sp": { "status": "dafuer", "text": "Gehörte nicht zu den ablehnenden Stimmen: Laut Botschaft lehnte im Zuwanderungsbereich einzig die SVP die Vorlage ab." },
+            "fdp": { "status": "dafuer", "text": "Gehörte nicht zu den ablehnenden Stimmen: Laut Botschaft lehnte im Zuwanderungsbereich einzig die SVP die Vorlage ab." },
+            "mitte": { "status": "dafuer", "text": "Gehörte nicht zu den ablehnenden Stimmen: Laut Botschaft lehnte im Zuwanderungsbereich einzig die SVP die Vorlage ab." },
+            "glp": { "status": "dafuer", "text": "Gehörte nicht zu den ablehnenden Stimmen: Laut Botschaft lehnte im Zuwanderungsbereich einzig die SVP die Vorlage ab." },
+            "gruene": { "status": "dafuer", "text": "Gehörte nicht zu den ablehnenden Stimmen: Laut Botschaft lehnte im Zuwanderungsbereich einzig die SVP die Vorlage ab." },
+            "kdk": { "status": "dafuer", "text": "KdK und die grosse Mehrheit der Kantone (ausser Schwyz und Nidwalden) sprachen sich für die Vorlage aus; forderten aber einen stärkeren Einbezug bei der Ausgestaltung der Schutzklausel-Indikatoren und -Schwellenwerte." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.3 Personenfreizügigkeit – Zusammenfassung", "ref": "S. 266–268", "url": "assets/Botschaft_DE.pdf#page=266" },
+            { "titel": "Botschaft, Kap. 2.3.4.3 – Vernehmlassungsergebnisse Zuwanderung", "ref": "S. 279", "url": "assets/Botschaft_DE.pdf#page=279" },
+            { "titel": "Botschaft, Kap. 2.3.5.2 – Ausnahmen, Absicherungen und Schutzklausel", "ref": "S. 282–286", "url": "assets/Botschaft_DE.pdf#page=282" },
+            { "titel": "Botschaft, Kap. 2.3.7.1.1 – Umsetzung Schutzklausel & Rolle der Kantone", "ref": "S. 328–329", "url": "assets/Botschaft_DE.pdf#page=328" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mra",
+      "icon": "package",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.4",
+      "tags": [
+        "export",
+        "kmu",
+        "gesundheit"
+      ],
+      "branchen": [
+        "industrie",
+        "gesundheit"
+      ],
+      "system": [
+        "souveraenitaet"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Technische Handelshemmnisse (MRA)",
+          "teaser": "Gegenseitige Anerkennung von Produktprüfungen, etwa für Maschinen und Medizinaltechnik.",
+          "ziel": "Das MRA soll mit institutionellen Elementen ergänzt werden, damit es künftig vollständig angewendet und regelmässig aktualisiert wird – inklusive Mitsprache der Schweiz bei neuen EU-Vorschriften (Decision Shaping) und einem griffigen Streitbeilegungsmechanismus.",
+          "statusQuo": "Das MRA von 1999 (Teil der Bilateralen I) deckt rund zwei Drittel des Werts des Industriegüterhandels zwischen der Schweiz und der EU ab (Exportvolumen CHF 105 Mrd., Stand 2024) in 20 Produktbereichen wie Maschinen, Medizin- oder Bauprodukten und erspart doppelte Konformitätsprüfungen. Eine Pflicht zur Aktualisierung des Abkommens besteht heute jedoch nicht: Seit 2021 hat die EU das MRA im Bereich Medizinprodukte trotz gleichwertigem Schweizer Recht nicht mehr aktualisiert. Der einzige heutige Streitbeilegungsmechanismus – der Gemischte Ausschuss im gegenseitigen Einvernehmen – erlaubt der Schweiz de facto nicht, ihre Rechte durchzusetzen.",
+          "pro": [
+            "Pflicht statt Kulanz: Die Vertragsparteien müssen künftig die sektoriellen Kapitel des MRA zügig aktualisieren – eine Blockade wie seit 2021 bei den Medizinprodukten wäre damit nicht mehr möglich.",
+            "Äquivalenzmethode bleibt erhalten: Die Schweiz muss weiterhin nur gleichwertiges, nicht identisches Recht erlassen – das lässt ihr mehr Handlungsspielraum als eine wörtliche Übernahme von EU-Recht.",
+            "Mitsprache statt nur Zuschauen: Schweizer Fachleute erhalten Zugang zum Decision Shaping bei neuen EU-Rechtsakten sowie Sitze in Fachausschüssen und Arbeitsgruppen, z. B. der Koordinierungsgruppe Medizinprodukte (MDCG).",
+            "Griffigere Streitbeilegung: Ein Schiedsgericht ersetzt den bisherigen, auf gegenseitiges Einvernehmen angewiesenen Gemischten Ausschuss als einzigen Streitbeilegungsweg.",
+            "Volkswirtschaftlich bedeutsam: Laut einer Ecoplan-Studie (2025) im Auftrag des SECO würde ein Wegfall der Bilateralen I (inkl. MRA) das Bruttoinlandprodukt bis 2045 um 4,9 % schmälern – das MRA gilt nach dem FZA als volkswirtschaftlich wichtigstes Abkommen.",
+            "Breite Unterstützung in der Vernehmlassung: 56 von 68 Teilnehmenden befürworteten die Vorlage, darunter die KdK, 12 Kantone, Die Mitte, die Grünen, die GLP, die SP und economiesuisse."
+          ],
+          "contra": [
+            "Dynamische Rechtsübernahme auch hier: Neue EU-Rechtsakte in den 20 Produktbereichen müssen künftig zügig ins Abkommen integriert werden, auch wenn die Äquivalenzmethode mehr Spielraum lässt als bei anderen Abkommen.",
+            "Die SVP kritisiert in der Vernehmlassung, die wirtschaftliche Bedeutung des MRA werde im Verhältnis zu den institutionellen Kosten übertrieben.",
+            "Dringlichkeit bleibt ungelöst bis zum Inkrafttreten: Mehrere Wirtschaftsverbände (u. a. Interpharma, scienceindustries, Swiss Holdings, Swiss Textiles) sowie die KdK und mehrere Kantone forderten in der Vernehmlassung, die seit 2021 blockierte Aktualisierung bei Medizinprodukten möglichst schon vor Inkrafttreten des Gesamtpakets zu lösen.",
+            "3 von 68 Vernehmlassungsteilnehmenden lehnten die Vorlage ab (u. a. die SVP), 9 weitere – darunter der Schweizer Bauernverband – positionierten sich nicht eindeutig."
+          ],
+          "kantone": [
+            "Die technischen Vorschriften im Geltungsbereich des MRA fallen laut Botschaft grossmehrheitlich in die Zuständigkeit des Bundes – weder das Institutionelle Protokoll noch das Änderungsprotokoll hat direkte Auswirkungen auf Kantone, Gemeinden, städtische Zentren, Agglomerationen oder Berggebiete.",
+            "Die KdK und 12 Kantone unterstützten die Vorlage in der Vernehmlassung dennoch ausdrücklich und drängten zusätzlich auf eine raschestmögliche Lösung der blockierten Medizinprodukte-Aktualisierung."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Eine von drei ablehnenden Stimmen in der Vernehmlassung; kritisiert, die wirtschaftliche Bedeutung des MRA werde im Verhältnis zu den institutionellen Kosten übertrieben." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den 56 von 68 Vernehmlassungsteilnehmenden, die das Institutionelle Protokoll und das Änderungsprotokoll zum MRA befürworteten." },
+            "fdp": { "status": "offen", "text": "Keine gesonderte Position zum MRA dokumentiert." },
+            "mitte": { "status": "dafuer", "text": "Gehörte zu den 56 von 68 Vernehmlassungsteilnehmenden, die das Institutionelle Protokoll und das Änderungsprotokoll zum MRA befürworteten." },
+            "glp": { "status": "dafuer", "text": "Gehörte zu den 56 von 68 Vernehmlassungsteilnehmenden, die das Institutionelle Protokoll und das Änderungsprotokoll zum MRA befürworteten." },
+            "gruene": { "status": "dafuer", "text": "Gehörte zu den 56 von 68 Vernehmlassungsteilnehmenden, die das Institutionelle Protokoll und das Änderungsprotokoll zum MRA befürworteten." },
+            "kdk": { "status": "dafuer", "text": "Gehörte zu den 56 befürwortenden Vernehmlassungsteilnehmenden; drängte zusätzlich zusammen mit 12 Kantonen auf eine rasche Lösung der blockierten Medizinprodukte-Aktualisierung." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.4 Technische Handelshemmnisse (MRA) – Zusammenfassung", "ref": "S. 472–473", "url": "assets/Botschaft_DE.pdf#page=472" },
+            { "titel": "Botschaft, Kap. 2.4.4.3 – Vernehmlassungsergebnisse MRA", "ref": "S. 474", "url": "assets/Botschaft_DE.pdf#page=474" },
+            { "titel": "Botschaft, Kap. 2.4.6.1 – Institutionelles Protokoll: Mitsprache & dynamische Integration", "ref": "S. 476–477", "url": "assets/Botschaft_DE.pdf#page=476" },
+            { "titel": "Botschaft, Kap. 2.4.8 – Auswirkungen auf Kantone & Volkswirtschaft", "ref": "S. 486–487", "url": "assets/Botschaft_DE.pdf#page=486" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "landverkehr",
+      "icon": "train",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.5",
+      "tags": [
+        "verkehr",
+        "kantone"
+      ],
+      "branchen": [
+        "kantone",
+        "industrie"
+      ],
+      "system": [
+        "foederalismus"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Landverkehr",
+          "teaser": "Strasse und Schiene: Regeln für den grenzüberschreitenden Güter- und Personenverkehr.",
+          "ziel": "Das Landverkehrsabkommen (LandVA) soll institutionell aufdatiert und für eine kontrollierte Marktöffnung im grenzüberschreitenden Schienenpersonenverkehr geöffnet werden – ohne die Schweizer Verkehrspolitik (Verlagerung Strasse–Schiene, Taktfahrplan, Tarifintegration) zu schwächen.",
+          "statusQuo": "Das LandVA von 1999 liberalisiert den Güter- und Personenverkehr auf Strasse und Schiene zwischen der Schweiz und der EU und ist Kernbestandteil der schweizerischen Verlagerungspolitik. Der grenzüberschreitende Schienenpersonenverkehr ist heute nur in Kooperation zwischen einem Schweizer und einem ausländischen Eisenbahnunternehmen möglich; die EU hat ihren eigenen Markt dafür bereits 2010/2016 vollständig liberalisiert. Bestehende Schweizer Ausnahmen wie das Kabotageverbot, das Nacht- und Sonntagsfahrverbot, die 40-Tonnen-Limite und die LSVA bleiben unverändert.",
+          "pro": [
+            "Kontrollierte Marktöffnung statt Kooperationszwang: EU-Bahnunternehmen können künftig eigenständig grenzüberschreitende Verbindungen anbieten, umgekehrt profitieren auch Schweizer Unternehmen – der Bundesrat erachtet das Verhandlungsmandat als vollumfänglich erfüllt und in Teilen übertroffen.",
+            "Neue, von der dynamischen Rechtsübernahme ausgenommene Ausnahmen sichern Schweizer Errungenschaften: Vorrang des Taktfahrplans, Tarifintegrationspflicht für ausländische Bahnunternehmen und eine langfristig abgesicherte Trassenreservierung auch für den Güterverkehr – ging über das ursprüngliche Mandat hinaus.",
+            "Alle bisherigen Ausnahmen bleiben bestehen: Kabotageverbot, Nacht- und Sonntagsfahrverbot für Lastwagen, 40-Tonnen-Limite, keine Erhöhung der Strassenkapazität durch die Alpen sowie die LSVA – und werden ebenfalls von der dynamischen Rechtsübernahme ausgenommen.",
+            "Mehr Flexibilität bei der LSVA: Die leistungsabhängige Schwerverkehrsabgabe wird angepasst, um die Verlagerungspolitik langfristig zu bekräftigen – ging ebenfalls über das Mandat hinaus.",
+            "Eine neue Rechtsgrundlage ermöglicht künftig eine stärkere Mitwirkung der Schweiz in der EU-Eisenbahnagentur (ERA).",
+            "Breite Unterstützung in der Vernehmlassung: 93 Stellungnahmen, 66 (71 %) dafür – darunter Kantone, Städte, die öV-Branche, Wirtschaftsverbände, Gewerkschaften, Konsumenten- und Naturschutzverbände; nur 11 (11,8 %) dagegen."
+          ],
+          "contra": [
+            "Dynamische Rechtsübernahme gilt neu auch für das LandVA als Binnenmarktabkommen – nur die explizit ausgehandelten Ausnahmen sind davon ausgeschlossen, nicht automatisch jede künftige EU-Rechtsentwicklung.",
+            "Neue Beihilferegeln gelten künftig auch im grenzüberschreitenden Landverkehr; die SVP als einzige ablehnende Partei forderte deshalb einen Bericht zu den Auswirkungen auf die Finanzierung des Schienengüterverkehrs – der Bundesrat kommt dem nach.",
+            "Gewerkschaften, Grüne und SP forderten eine gesetzliche statt nur verordnungsrechtliche Verankerung der Sozialstandards für Personal auf internationalen Zügen; der Bundesrat lehnte die Gesetzesstufe ab und revidiert stattdessen nur die Verordnung (VPB).",
+            "11 von 93 Vernehmlassungsteilnehmenden lehnten die Vorlage ab (u. a. die SVP), 16 (17,2 %) bezogen keine klare Position."
+          ],
+          "kantone": [
+            "Die Kantone waren über die Konferenz der kantonalen Direktoren des öffentlichen Verkehrs (KöV) direkt Teil der Schweizer Verhandlungsdelegation.",
+            "Die Auswirkungen auf die Kantone sind im Eisenbahnbereich laut Botschaft gering: Abgeschlossene Netze wie Schmalspur- oder Tramnetze bleiben weiterhin vom LandVA ausgenommen, Direktvergaben im grenzüberschreitenden Regionalverkehr bleiben möglich und unterstehen weiterhin dem Personenbeförderungsgesetz.",
+            "Durch die Anwendung einer EU-Verordnung (1370/2007) entsteht für die Kantone eine geringfügige zusätzliche administrative Begleitung."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Einzige ablehnende Partei in der Vernehmlassung; forderte u. a. einen Bericht zu den Auswirkungen der neuen EU-Beihilferegeln auf die Finanzierung des Schienengüterverkehrs – dem der Bundesrat nachkommt." },
+            "sp": { "status": "dafuer", "text": "Äusserte sich laut Botschaft (verhalten) positiv; forderte zusammen mit Gewerkschaften eine gesetzliche Verankerung der Sozialstandards für Zugpersonal, die der Bundesrat jedoch nur auf Verordnungsstufe umsetzt." },
+            "fdp": { "status": "dafuer", "text": "Gehörte laut Botschaft zur Mehrheit der Parteien, die sich (verhalten) positiv äusserten; keine individuell dokumentierte Einzelposition." },
+            "mitte": { "status": "dafuer", "text": "Gehörte laut Botschaft zur Mehrheit der Parteien, die sich (verhalten) positiv äusserten; keine individuell dokumentierte Einzelposition." },
+            "glp": { "status": "dafuer", "text": "Gehörte laut Botschaft zur Mehrheit der Parteien, die sich (verhalten) positiv äusserten; keine individuell dokumentierte Einzelposition." },
+            "gruene": { "status": "dafuer", "text": "Forderte zusammen mit der SP und Gewerkschaften eine gesetzliche Verankerung der Sozialstandards für Zugpersonal, die der Bundesrat jedoch nur auf Verordnungsstufe umsetzt." },
+            "kdk": { "status": "dafuer", "text": "Kantone und Städte gehörten zu den positiven Rückmeldungen; die Kantone waren zudem über die KöV direkt in die Verhandlungsdelegation eingebunden." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.5 Landverkehr – Zusammenfassung", "ref": "S. 492–493", "url": "assets/Botschaft_DE.pdf#page=492" },
+            { "titel": "Botschaft, Kap. 2.5.2–2.5.3 – Ausnahmen & Verhandlungsziele", "ref": "S. 494–496", "url": "assets/Botschaft_DE.pdf#page=494" },
+            { "titel": "Botschaft, Kap. 2.5.4.3 – Vernehmlassungsergebnisse", "ref": "S. 497–498", "url": "assets/Botschaft_DE.pdf#page=497" },
+            { "titel": "Botschaft, Kap. 2.5.8.2 – Auswirkungen auf Kantone", "ref": "S. 525", "url": "assets/Botschaft_DE.pdf#page=525" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "luftverkehr",
+      "icon": "plane",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.6",
+      "tags": [
+        "verkehr",
+        "export"
+      ],
+      "branchen": [
+        "industrie"
+      ],
+      "system": [
+        "souveraenitaet"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Luftverkehr",
+          "teaser": "Flugrechte für Schweizer Airlines im EU-Markt und Beihilferegeln im Luftverkehr.",
+          "ziel": "Das Luftverkehrsabkommen (LuftVA) soll institutionell aufdatiert werden und erstmals gegenseitige Kabotagerechte sowie eine vollwertige Schweizer Teilnahme an der EU-Flugverkehrsforschung (SESAR 3) ermöglichen – bei fortbestehender hoher Sicherheit und abgesicherter Mitsprache.",
+          "statusQuo": "Das LuftVA von 1999 regelt seit 2002 den liberalisierten Luftverkehrsmarkt zwischen der Schweiz und der EU, die Schweizer Teilnahme an der Flugsicherheitsagentur EASA (seit 2006) und am einheitlichen europäischen Luftraum. 2024 betrafen rund 60 % aller knapp 58 Mio. Passagiere an Schweizer Flughäfen Flüge von oder nach der EU. Kabotagerechte (Inlandflüge im Gebiet der anderen Vertragspartei) fehlen bisher: Die EU knüpfte deren Einführung seit 2012 an eine Einigung bei den institutionellen Elementen. Bei EU-Forschungsprojekten zum Flugverkehrsmanagement (SESAR 3) konnte die Schweizer Industrie bislang nur als einfache Drittpartei teilnehmen, ohne Projekte zu koordinieren oder an der strategischen Steuerung mitzuwirken.",
+          "pro": [
+            "Erstmals Kabotagerechte: Schweizer und EU-Luftfahrtunternehmen erhalten gegenseitig Verkehrsrechte für Inlandflüge im Gebiet der anderen Seite – ein seit 2012 blockiertes Anliegen.",
+            "Abgesicherte Mitsprache: Das Institutionelle Protokoll sichert Schweizer Mitspracherechte (Decision Shaping) in EU-Gremien, in denen die Schweiz schon bisher z. B. den weltweiten Standard für komplexe Drohnen mitgeprägt hat.",
+            "Vollwertige SESAR-3-Teilnahme: Die Schweizer Luftfahrtindustrie kann künftig – statt nur als «Associated Partner» ohne Mitsprache – Projekte koordinieren und an der strategischen Steuerung mitwirken, finanziert über Horizon-Europe-Fördertöpfe statt wie bisher vollständig aus eigener Tasche.",
+            "Verbindliche Beihilfeüberwachung sorgt laut Bundesrat für gleiche Wettbewerbsbedingungen zwischen Schweizer und EU-Fluggesellschaften.",
+            "Geringer Anpassungsbedarf: Weil der Anhang des LuftVA schon bisher laufend aktualisiert wird, hält das BAZL eine Regulierungsfolgeabschätzung für nicht nötig – alle Verhandlungsziele der Schweiz wurden erreicht.",
+            "Breite Unterstützung in der Vernehmlassung: 41 von 60 Stellungnahmen dafür, u. a. GLP, Mitte, SP, KdK und 11 von 13 Kantonen sowie praktisch alle zentralen Luftfahrt-Akteure (Swiss, Easyjet, Flughäfen Genf/Zürich, Skyguide, Wirtschaftsverbände)."
+          ],
+          "contra": [
+            "Dynamische Rechtsübernahme gilt auch hier; eine Minderheit der Vernehmlassungsteilnehmenden wertete dies als Souveränitätsverlust.",
+            "Lediglich die SVP sowie zwei Branchenverbände (u. a. die Swiss Helicopter Association) lehnten die Vorlage im Luftverkehr ab; die Grünen sowie zwei Kantone und mehrere Umwelt-/Verkehrsorganisationen bezogen keine konsolidierte Position.",
+            "Kritisierte Punkte: fehlende aktivere BAZL-Teilnahme am EU-Rechtssetzungsprozess, bürokratischer Umsetzungsaufwand, kritische Haltung zu innereuropäischen Flügen sowie Forderungen nach höheren Beimischquoten für nachhaltige Flugtreibstoffe.",
+            "Offene Frage zu Regionalflugplätzen: Mehrere Stellungnahmen forderten, dass staatliche Beihilfen für Regionalflugplätze langfristig zulässig bleiben – die entsprechenden EU-Leitlinien erlauben das bisher nur befristet (mindestens bis April 2027, ein Termin, der bereits mehrmals verschoben wurde)."
+          ],
+          "kantone": [
+            "Kantone könnten theoretisch von der neuen Beihilfeüberwachung bei Regionalflugplätzen betroffen sein; die EU-Gruppenfreistellungsverordnung deckt aber praktisch alle Schweizer Regionalflugplätze ab (Schwellenwert 200 000 Passagiere/Jahr – nur die Landesflughäfen liegen darüber).",
+            "Für Flugplätze über diesem Schwellenwert gelten EU-Leitlinien, die Betriebsbeihilfen für Regionalflughäfen mindestens bis April 2027 erlauben – ein Termin, der bereits mehrmals verschoben wurde."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Einzige ablehnende Partei in der Vernehmlassung zum Luftverkehr." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den Parteien, die sich in der Vernehmlassung für die Vorlage im Luftverkehr aussprachen." },
+            "fdp": { "status": "offen", "text": "Keine gesonderte Position zum Luftverkehr dokumentiert." },
+            "mitte": { "status": "dafuer", "text": "Sprach sich in der Vernehmlassung für die Vorlage im Luftverkehr aus." },
+            "glp": { "status": "dafuer", "text": "Sprach sich in der Vernehmlassung für die Vorlage im Luftverkehr aus." },
+            "gruene": { "status": "offen", "text": "Gab laut Botschaft keine konsolidierte Gesamtmeinung zur Vorlage im Luftverkehr ab." },
+            "kdk": { "status": "dafuer", "text": "KdK und 11 von 13 Kantonen mit einer relevanten Stellungnahme sprachen sich für die Vorlage aus." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.6 Luftverkehr – Zusammenfassung", "ref": "S. 531–532", "url": "assets/Botschaft_DE.pdf#page=531" },
+            { "titel": "Botschaft, Kap. 2.6.2–2.6.3 – Ausgangslage & Verhandlungsziele (Kabotage, SESAR 3)", "ref": "S. 532–534", "url": "assets/Botschaft_DE.pdf#page=532" },
+            { "titel": "Botschaft, Kap. 2.6.4.3 – Vernehmlassungsergebnisse", "ref": "S. 534–535", "url": "assets/Botschaft_DE.pdf#page=534" },
+            { "titel": "Botschaft, Kap. 2.6.9.2 – Auswirkungen auf Kantone (Regionalflugplätze)", "ref": "S. 541–542", "url": "assets/Botschaft_DE.pdf#page=541" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "landwirtschaft",
+      "icon": "sprout",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.7",
+      "tags": [
+        "landwirtschaft",
+        "konsum"
+      ],
+      "branchen": [
+        "landwirtschaft"
+      ],
+      "system": [
+        "souveraenitaet"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Landwirtschaft",
+          "teaser": "Agrarhandel mit der EU; der Agrarbereich ist von Ausgleichsmassnahmen ausgenommen.",
+          "ziel": "Das Landwirtschaftsabkommen von 1999 soll institutionell modernisiert werden – unter der ausdrücklichen Bedingung, dass die Souveränität der Schweizer Agrarpolitik, die bestehenden Zölle und Zollkontingente sowie der Grenzschutz für Agrarprodukte unverändert bleiben und keine Harmonisierung der Agrarpolitiken stattfindet.",
+          "statusQuo": "Die EU ist die wichtigste Handelspartnerin der Schweiz bei Agrarerzeugnissen: 2024 gingen 51 % der Schweizer Agrarexporte in die EU, 73 % der Agrarimporte stammten von dort – jährlicher Handel über CHF 16 Mrd. Das Landwirtschaftsabkommen (Teil der Bilateralen I) regelt gegenseitige Zollzugeständnisse, den vollständig liberalisierten Käsehandel sowie die gegenseitige Anerkennung von Vorschriften u. a. bei Wein/Spirituosen, biologischer Landwirtschaft, Vermarktungsnormen für Obst/Gemüse und Ursprungsbezeichnungen.",
+          "pro": [
+            "Verhandlungsmandat übertroffen: Die Schweiz erreichte, dass die institutionellen Elemente – insbesondere die dynamische Rechtsübernahme – im Agrarteil NICHT eingeführt werden; das war mehr, als ursprünglich als Verhandlungsziel gesetzt.",
+            "Souveränität bleibt gewahrt: Die Schweiz bestimmt ihre Agrarpolitik (z. B. das Direktzahlungssystem) weiterhin eigenständig; eine Harmonisierung mit der EU ist ausgeschlossen.",
+            "Bestehender Grenzschutz unverändert: Zölle, Zollkontingente und deren Verwaltungsmethode bleiben wie bisher bestehen.",
+            "Neues Schiedsgericht ohne EuGH-Rolle: Ähnlich wie in rund 30 Schweizer Freihandelsabkommen kann künftig bei Uneinigkeit im Gemischten Ausschuss für Landwirtschaft ein Schiedsgericht angerufen werden – der EuGH spielt dabei keine Rolle.",
+            "Eingeschränkte Ausgleichsmassnahmen: Diese sind im Agrarteil nur bei einer Verletzung des Landwirtschaftsabkommens selbst möglich, nicht bei Verletzung eines anderen Binnenmarktabkommens, und müssen verhältnismässig sein – das erhöht laut Bundesrat die Rechtssicherheit.",
+            "Breite Unterstützung in der Vernehmlassung: 50 von 74 Stellungnahmen befürworteten das Änderungsprotokoll, u. a. KdK, mehrere Kantone, Die Mitte, die SP, economiesuisse und der Arbeitgeberverband."
+          ],
+          "contra": [
+            "6 von 74 Vernehmlassungsteilnehmenden lehnten die Vorlage ab, darunter als einzige Partei die SVP; sie kritisierten insbesondere die Einführung eines Streitbeilegungsmechanismus und die Möglichkeit von Ausgleichsmassnahmen im Agrarteil.",
+            "18 Teilnehmende (u. a. die Kantone Obwalden und Thurgau sowie der Bauernverband SBV) bezogen keine klare Position – sie sahen Vorteile bei der gewahrten Souveränität, befürchteten aber im Zusammenhang mit dem neuen Lebensmittelsicherheitsprotokoll einen Souveränitätsverlust.",
+            "Der SBV bezeichnete den bilateralen Weg zwar als alternativlos, machte seine Zustimmung aber von Bedingungen abhängig: Die Mehrwerte müssten die Kosten und Risiken deutlich übersteigen, u. a. bei Souveränität, Handelshürden und Grenzschutz.",
+            "Die im Agrarteil gewonnene Ausnahme von der dynamischen Rechtsübernahme gilt nicht für den neu geschaffenen gemeinsamen Lebensmittelsicherheitsraum – dieser wird in einem separaten Protokoll geregelt (s. Thema Lebensmittelsicherheit)."
+          ],
+          "kantone": [
+            "Laut Botschaft hat das Änderungsprotokoll keine relevanten Auswirkungen auf die Kantone, die Volkswirtschaft, die Gesellschaft oder die Umwelt.",
+            "Die Kantone wurden über die KdK bereits bei der Erarbeitung des Verhandlungsmandats einbezogen; in der Vernehmlassung unterstützten zahlreiche Kantone (u. a. Zürich, Glarus, Zug, Freiburg, Solothurn, St. Gallen, Tessin, Waadt, Wallis, Neuenburg) die Vorlage ausdrücklich, während sich Obwalden und Thurgau nicht klar positionierten."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Eine von sechs ablehnenden Stimmen in der Vernehmlassung; kritisierte insbesondere den neuen Streitbeilegungsmechanismus und mögliche Ausgleichsmassnahmen im Agrarteil." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den 50 von 74 Vernehmlassungsteilnehmenden, die das Änderungsprotokoll befürworteten." },
+            "fdp": { "status": "offen", "text": "Keine gesonderte Position dokumentiert." },
+            "mitte": { "status": "dafuer", "text": "Gehörte zu den 50 von 74 Vernehmlassungsteilnehmenden, die das Änderungsprotokoll befürworteten." },
+            "glp": { "status": "offen", "text": "Keine gesonderte Position dokumentiert." },
+            "gruene": { "status": "offen", "text": "Keine gesonderte Position dokumentiert." },
+            "kdk": { "status": "dafuer", "text": "Gehörte zu den 50 befürwortenden Vernehmlassungsteilnehmenden; die Kantone wurden zudem bereits bei der Erarbeitung des Verhandlungsmandats einbezogen." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.7 Landwirtschaft – Zusammenfassung", "ref": "S. 549–550", "url": "assets/Botschaft_DE.pdf#page=549" },
+            { "titel": "Botschaft, Kap. 2.7.3 – Verhandlungsergebnis Agrarteil (Ausnahme dynamische Rechtsübernahme)", "ref": "S. 551", "url": "assets/Botschaft_DE.pdf#page=551" },
+            { "titel": "Botschaft, Kap. 2.7.4.3 – Vernehmlassungsergebnisse", "ref": "S. 552–553", "url": "assets/Botschaft_DE.pdf#page=552" },
+            { "titel": "Botschaft, Kap. 2.7.8 – Auswirkungen (Kantone, Grenzschutz, Ausgleichsmassnahmen)", "ref": "S. 558–559", "url": "assets/Botschaft_DE.pdf#page=558" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "programme",
+      "icon": "cap",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.8",
+      "tags": [
+        "forschung",
+        "bundesfinanzen"
+      ],
+      "branchen": [
+        "kantone"
+      ],
+      "system": [
+        "finanzen"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "EU-Programme: Horizon Europe & Erasmus+",
+          "teaser": "Teilnahme an Forschungs- und Bildungsprogrammen; Kredithöhe ist politisch umstritten.",
+          "ziel": "Mit dem EU-Programmabkommen (EUPA) soll die Schweiz dauerhaft und systematischer an den EU-Programmen für Bildung, Forschung und Innovation assoziiert werden – allen voran Horizon Europe und Erasmus+ – statt wie bisher für jede siebenjährige Programmgeneration einen komplett neuen Vertrag auszuhandeln.",
+          "statusQuo": "Horizon Europe und Erasmus+ gelten laut Botschaft als weltweit grösste Instrumente der Forschungs- und Bildungszusammenarbeit, ohne vergleichbare Alternative. Die Schweiz nahm bisher projektweise als nicht assoziierter, teil- oder assoziierter Drittstaat teil und musste für jede Programmgeneration (jeweils 7 Jahre) einen eigenständigen neuen Vertrag abschliessen. Seit 2020 verlangt die EU-Kommission dafür ein einheitliches Modell: ein unbefristetes Rahmenabkommen (EUPA) mit programmspezifischen, befristeten Protokollen.",
+          "pro": [
+            "Dauerhafter Rahmen statt Dauerverhandlung: Der horizontale Teil des EUPA ist unbefristet gültig, nur die programmspezifischen Protokolle müssen künftig pro Programmgeneration neu verhandelt werden – vergleichbare Bedingungen wie bei anderen assoziierten Drittstaaten (UK, Neuseeland, Kanada).",
+            "Rückwirkende Assoziierung bereits wirksam: Seit Unterzeichnung am 10. November 2025 ist die Schweiz provisorisch rückwirkend per 1. Januar 2025 an Horizon Europe, Euratom und Digital Europe assoziiert, seit 1. Januar 2026 an ITER; für Erasmus+ ist die Assoziierung ab 1. Januar 2027 ausgehandelt.",
+            "Rabatte ausgehandelt: Für die Teilnahme an Euratom, ITER und Erasmus+ konnten bis Ende 2027 Vergünstigungen erzielt werden.",
+            "Jederzeit kündbar: Beide Seiten können das EUPA mit sechsmonatiger Frist auflösen – keine unbegrenzte Bindung.",
+            "Breite Unterstützung in der Vernehmlassung: Von 156 Teilnehmenden waren die Rückmeldungen laut Botschaft meist positiv; EUPA und Horizon-Paket wurden breit begrüsst.",
+            "Kantone profitieren direkt: Kantone und Gemeinden können selbst an Forschungsprojekten teilnehmen und Mittel akquirieren; drei Kantone (Basel-Stadt, Thurgau, St. Gallen) reichten 2024/25 sogar Standesinitiativen für eine gesicherte Erasmus+-Teilnahme ein."
+          ],
+          "contra": [
+            "Hohe Kosten: Für 2021–2027 hat das Parlament CHF 6,2 Mrd. für das Horizon-Paket gesprochen (davon rund CHF 1,95 Mrd. allein für 2025–2027); für Erasmus+ 2027 kommt ein separater Pflichtbeitrag von rund CHF 160 Mio. hinzu, über den das Parlament gesondert entscheidet.",
+            "SVP und Die Mitte lehnten die Assoziierung an Erasmus+ in der Vernehmlassung ab – die Mitte explizit wegen der hohen Kosten und der strategischen Ausrichtung des Programms.",
+            "Die Grünen forderten einen ganzen oder teilweisen Verzicht auf die Teilnahme am Euratom-Programm.",
+            "Kantone, KdK und Hochschulkreise verlangten, dass die Kosten der Erasmus+-Assoziierung nicht zulasten des übrigen Bildungs-, Forschungs- und Innovationsbereichs gehen dürfen – einige Wirtschaftsverbände forderten für diesen Fall sogar einen Verzicht auf die Teilnahme."
+          ],
+          "kantone": [
+            "Die Assoziierung an die Forschungsprogramme hat laut Botschaft keine direkten Auswirkungen auf städtische Zentren, Agglomerationen und Berggebiete; alle Regionen profitieren aber indirekt, besonders jene mit Hochschulen und Forschungsinstituten.",
+            "Kantone und Gemeinden können direkt an Forschungs- und Innovationsprojekten teilnehmen und eigene Mittel akquirieren; bei Erasmus+ steht der Zugang Institutionen aus allen Landesteilen offen.",
+            "Drei Kantone (Basel-Stadt, Thurgau, St. Gallen) reichten zwischen Ende 2024 und Anfang 2025 Standesinitiativen für eine gesicherte Erasmus+-Teilnahme ein; die Kantone/KdK beteiligten sich zudem mit 17 Kantonen aktiv an der Vernehmlassung."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Lehnte die Assoziierung an Erasmus+ 2027 in der Vernehmlassung grundsätzlich ab." },
+            "sp": { "status": "dafuer", "text": "Keine spezifisch kritische Position dokumentiert; gehörte zu den insgesamt meist positiven Vernehmlassungsrückmeldungen." },
+            "fdp": { "status": "dafuer", "text": "Keine spezifisch kritische Position dokumentiert; gehörte zu den insgesamt meist positiven Vernehmlassungsrückmeldungen." },
+            "mitte": { "status": "vorbehalt", "text": "Lehnte die Assoziierung an Erasmus+ wegen der hohen Kosten und der strategischen Ausrichtung des Programms ab, unterstützte aber implizit das übrige EUPA/Horizon-Paket." },
+            "glp": { "status": "dafuer", "text": "Keine spezifisch kritische Position dokumentiert; gehörte zu den insgesamt meist positiven Vernehmlassungsrückmeldungen." },
+            "gruene": { "status": "vorbehalt", "text": "Forderte einen ganzen oder teilweisen Verzicht auf die Teilnahme am Euratom-Programm." },
+            "kdk": { "status": "vorbehalt", "text": "Unterstützte das EUPA, verlangte aber zusammen mit 17 Kantonen, dass die Kosten der Erasmus+-Assoziierung nicht zulasten des übrigen BFI-Bereichs gehen dürfen." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.8 Programme – Zusammenfassung", "ref": "S. 562–563", "url": "assets/Botschaft_DE.pdf#page=562" },
+            { "titel": "Botschaft, Kap. 2.8.2 – Ausgangslage EUPA & EU-Programme", "ref": "S. 563–565", "url": "assets/Botschaft_DE.pdf#page=563" },
+            { "titel": "Botschaft, Kap. 2.8.4.3–2.8.4.4 – Vernehmlassungsergebnisse", "ref": "S. 586–587", "url": "assets/Botschaft_DE.pdf#page=586" },
+            { "titel": "Botschaft, Kap. 2.8.9.2 – Auswirkungen auf Kantone", "ref": "S. 610", "url": "assets/Botschaft_DE.pdf#page=610" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "weltraum",
+      "icon": "globe",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.9",
+      "tags": [
+        "forschung",
+        "export"
+      ],
+      "branchen": [
+        "industrie"
+      ],
+      "system": [
+        "finanzen"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Weltraum",
+          "teaser": "Zusammenarbeit mit der EU im Bereich Weltraum.",
+          "ziel": "Mit dem EUSPA-Abkommen soll die Schweiz dauerhaft an der EU-Weltraumagentur EUSPA teilnehmen – inklusive Zugang zu sicherheitsrelevanten Informationen und dem hochsicheren Galileo-Dienst PRS, zu denen sie bisher trotz Mitwirkung an vielen EU-Weltraumprogrammen keinen Zugang hatte.",
+          "statusQuo": "Die Schweiz ist bereits seit 2013 über das unbefristete GNSS-Kooperationsabkommen an vielen der EUSPA übertragenen Aufgaben beteiligt (u. a. Galileo, EGNOS, Erdbeobachtungsprogramm Copernicus) und seit 1975 Mitglied der Europäischen Weltraumorganisation ESA. Trotzdem fehlt ihr bislang der Zugang zu Informationen über den operativen Betrieb und die Weiterentwicklung der Programmkomponenten sowie zum hochsicheren, nur staatlich autorisierten PRS-Dienst von Galileo – zentral etwa für Polizei, Rettungsdienste, Nachrichtendienst, Armee und Grenzschutz.",
+          "pro": [
+            "Schliesst eine Informationslücke: Die Schweiz erhält künftig Zugang zum Verwaltungsrat und zum Gremium für Sicherheitsakkreditierung der EUSPA (ohne Stimmrecht, das den EU-Mitgliedstaaten vorbehalten bleibt).",
+            "Zugang zum PRS: Die Teilnahme an der EUSPA ist EU-Vorgabe für den Zugang zum hochsicheren Galileo-Dienst, der u. a. für Blaulichtorganisationen und die Armee zentral ist.",
+            "Jederzeit kündbar: Das Abkommen gilt unbefristet, kann aber von beiden Seiten mit sechsmonatiger Frist aufgelöst werden.",
+            "Der Bundesrat erachtet das seit 2009 geltende Verhandlungsmandat als vollständig erfüllt.",
+            "Praktisch einstimmige Unterstützung in der Vernehmlassung: 39 von 40 Teilnehmenden dafür, u. a. KdK, Die Mitte, Grüne, GLP, SP, Arbeitgeberverband, ETH-Rat und Swissmem.",
+            "Keine finanziellen Auswirkungen für die Kantone; der künftige PRS-Zugang kann ihnen umgekehrt direkt beim Bevölkerungsschutz (Polizei, Rettungsdienste) nützen."
+          ],
+          "contra": [
+            "Finanzierung nach BIP-Schlüssel: Die Schweiz beteiligt sich anteilsmässig an der EUSPA-Finanzierung nach einem vom Bruttoinlandprodukt abhängigen Berechnungsschlüssel.",
+            "Kein Stimmrecht: Die Schweiz erhält Zugang zu den Gremien, aber kein Stimmrecht – dieses bleibt den EU-Mitgliedstaaten vorbehalten.",
+            "Einzige kritische Stimme in der Vernehmlassung war die SVP, die sechs formale Anpassungsanträge einbrachte; drei davon wurden durch Präzisierungen in der Botschaft aufgenommen, drei nicht."
+          ],
+          "kantone": [
+            "Das EUSPA-Abkommen hat laut Botschaft keine unmittelbaren Auswirkungen auf Kantone, städtische Zentren, Agglomerationen oder Berggebiete und keine finanziellen Folgen für die Kantone.",
+            "Der künftige Zugang zum PRS-Dienst kann Kantonen umgekehrt direkt beim Bevölkerungsschutz (Polizei, Rettungsdienste) nützen."
+          ],
+          "positionen": {
+            "svp": { "status": "vorbehalt", "text": "Einzige kritische Stimme in der Vernehmlassung (keine klare Ablehnung); brachte sechs formale Anpassungsanträge ein, von denen drei in der Botschaft aufgenommen wurden." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den 39 von 40 Vernehmlassungsteilnehmenden, die das EUSPA-Abkommen befürworteten." },
+            "fdp": { "status": "offen", "text": "Nicht namentlich in der Vernehmlassungsliste genannt." },
+            "mitte": { "status": "dafuer", "text": "Gehörte zu den 39 von 40 Vernehmlassungsteilnehmenden, die das EUSPA-Abkommen befürworteten." },
+            "glp": { "status": "dafuer", "text": "Gehörte zu den 39 von 40 Vernehmlassungsteilnehmenden, die das EUSPA-Abkommen befürworteten." },
+            "gruene": { "status": "dafuer", "text": "Gehörte zu den 39 von 40 Vernehmlassungsteilnehmenden, die das EUSPA-Abkommen befürworteten." },
+            "kdk": { "status": "dafuer", "text": "Gehörte zu den 39 von 40 Vernehmlassungsteilnehmenden, die das EUSPA-Abkommen befürworteten." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.9 Weltraum – Zusammenfassung", "ref": "S. 620–621", "url": "assets/Botschaft_DE.pdf#page=620" },
+            { "titel": "Botschaft, Kap. 2.9.4.3–2.9.4.4 – Vernehmlassungsergebnisse", "ref": "S. 627–628", "url": "assets/Botschaft_DE.pdf#page=627" },
+            { "titel": "Botschaft, Kap. 2.9.8.2 – Auswirkungen auf Kantone", "ref": "S. 633", "url": "assets/Botschaft_DE.pdf#page=633" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kohaesion",
+      "icon": "coins",
+      "paket": "haupt",
+      "redaktion": "fertig",
+      "kapitel": "2.10",
+      "tags": [
+        "bundesfinanzen"
+      ],
+      "branchen": [],
+      "system": [
+        "finanzen"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Schweizer Beitrag (Kohäsion & Migration)",
+          "teaser": "Ständerat bewilligte CHF 3,3 Mrd. Kohäsionsbeitrag für 2030–2036, dazu einen Migrationsbeitrag.",
+          "ziel": "Der Schweizer Beitrag an den wirtschaftlichen und sozialen Zusammenhalt in der EU soll mit einem neuen, rechtsverbindlichen Beitragsabkommen dauerhaft verstetigt werden – mit einem festen Rhythmus für künftige Beitragsperioden statt wiederkehrender Einzelverhandlungen, und erstmals einem festen Anteil (bis zu 10 %) für andere gemeinsame Herausforderungen wie Migration.",
+          "statusQuo": "Die Schweiz leistet seit 2007 (Erweiterungsbeitrag, CHF 1 Mrd.) und seit 2019 (zweiter Schweizer Beitrag, CHF 1,302 Mrd.) Beiträge an ausgewählte EU-Mitgliedstaaten zur Verringerung wirtschaftlicher und sozialer Ungleichheiten – analog zu Norwegen, Island und Liechtenstein, die als EWR-Staaten zusammen rund CHF 440 Mio. pro Jahr zahlen (davon CHF 430 Mio. Norwegen allein). Die bisherige gesetzliche Grundlage (Bundesgesetz über die Zusammenarbeit mit den Staaten Osteuropas) lief Ende 2024 aus; einen dauerhaften, rechtsverbindlichen Mechanismus gab es bislang nicht.",
+          "pro": [
+            "Rechtsverbindlicher, dauerhafter Mechanismus statt Einzelverhandlungen: schafft laut Bundesrat mehr Rechtssicherheit und finanzielle Planbarkeit für die Schweiz.",
+            "Deutlich tiefer als von der EU gefordert: Die EU verlangte ursprünglich über CHF 520 Mio. pro Jahr; ausgehandelt wurden CHF 350 Mio. pro Jahr (308 Mio. Kohäsion, 42 Mio. Migration) für die erste Periode 2030–2036 – pro Kopf klar unter dem Beitrag Norwegens.",
+            "Streitbeilegung ohne EuGH-Rolle: Ein Schiedsgerichtsmodell regelt Streitfälle über das Beitragsabkommen; Umsetzungsstreitfälle mit einzelnen Partnerstaaten sind davon ausgenommen und werden separat geregelt.",
+            "Mitspracherechte des Parlaments gesichert: Die Aussenpolitischen Kommissionen werden vor jeder Verhandlung über das Memorandum of Understanding konsultiert, Verpflichtungskredite für jede Beitragsperiode müssen vom Parlament bewilligt werden – die Finanzierung unterliegt zudem der Schuldenbremse.",
+            "Verstärkte «Swissness»: Als Reaktion auf eine Empfehlung der Eidgenössischen Finanzkontrolle (EFK) wurde die Einbindung Schweizer Partnerorganisationen bei der Umsetzung gestärkt.",
+            "Mehrheitliche Unterstützung in der Vernehmlassung: 47 von 91 Stellungnahmen dafür (u. a. Die Mitte, EVP, Grüne, GLP, SP, Städteverband, economiesuisse, Arbeitgeberverband, Bankiervereinigung), nur 13 dagegen."
+          ],
+          "contra": [
+            "Erhebliche Summe: Allein der erste Beitrag kostet CHF 350 Mio. pro Jahr (2030–2036), dazu kommt eine einmalige Zusatzverpflichtung von CHF 130 Mio. pro Jahr (bis Inkrafttreten) bzw. CHF 350 Mio. pro Jahr (bis Ende 2029) für die Übergangszeit.",
+            "SVP und EDU lehnten die Verstetigung in der Vernehmlassung ab und kritisierten zusätzlich die Höhe des Beitrags.",
+            "Auch wohlwollende Stimmen hatten Vorbehalte zur Höhe: Die Schweizerische Arbeitsgemeinschaft für die Berggebiete stimmte der Weiterführung grundsätzlich zu, war aber mit der Höhe nicht einverstanden; der Gewerbeverband bezog keine klare Position.",
+            "31 von 91 Vernehmlassungsteilnehmenden bezogen keine klare Position; mehrfach wurde gefordert, dass die Finanzierung nicht zulasten anderer Bereiche (z. B. des Agrarbudgets) gehen dürfe.",
+            "Künftige Beiträge nach 2036 können aus politischen Überlegungen um bis zu 10 % erhöht oder gesenkt werden – ein gewisser Ermessensspielraum bleibt auch nach der «Verstetigung» bestehen."
+          ],
+          "kantone": [
+            "Der Vollzug der Bundesbeschlüsse obliegt laut Botschaft ausschliesslich dem Bund und hat keine finanziellen oder personellen Auswirkungen auf Kantone, Gemeinden, städtische Zentren, Agglomerationen oder Berggebiete.",
+            "Die mit der Umsetzung beauftragten Bundesämter können im Rahmen der Umsetzung des Schweizer Beitrags mit Kantonen und Gemeinden zusammenarbeiten, ohne dass eine formelle Rolle für sie vorgesehen ist."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Lehnte die Verstetigung des Schweizer Beitrags in der Vernehmlassung ab und kritisierte zusätzlich dessen Höhe." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den fünf von sieben Parteien, die die Verstetigung befürworteten, und zeigte sich mit der Höhe des Beitrags einverstanden." },
+            "fdp": { "status": "offen", "text": "Keine gesonderte Position dokumentiert – gehörte nicht zu den sieben Parteien, die sich laut Botschaft explizit zum Schweizer Beitrag äusserten." },
+            "mitte": { "status": "dafuer", "text": "Befürwortete die Verstetigung und zeigte sich mit der Höhe des Beitrags einverstanden; forderte zusätzlich eine verstärkte Kooperation mit Schweizer Partnern." },
+            "glp": { "status": "dafuer", "text": "Gehörte zu den fünf von sieben Parteien, die die Verstetigung befürworteten." },
+            "gruene": { "status": "dafuer", "text": "Befürwortete die Verstetigung und zeigte sich mit der Höhe des Beitrags einverstanden." },
+            "kdk": { "status": "offen", "text": "Nahm das Verhandlungsresultat zur Kenntnis und bestätigte, dass es dem Mandat entspreche, ohne eine eigene Dafür/Dagegen-Position zu formulieren." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.10 Schweizer Beitrag – Zusammenfassung", "ref": "S. 638–639", "url": "assets/Botschaft_DE.pdf#page=638" },
+            { "titel": "Botschaft, Kap. 2.10.4.3 – Vernehmlassungsergebnisse", "ref": "S. 642–643", "url": "assets/Botschaft_DE.pdf#page=642" },
+            { "titel": "Botschaft, Kap. 2.10.5.3–2.10.5.5 – Höhe & erster Schweizer Beitrag 2030–2036", "ref": "S. 647–648", "url": "assets/Botschaft_DE.pdf#page=647" },
+            { "titel": "Botschaft, Kap. 2.10.10.2 – Auswirkungen auf Kantone", "ref": "S. 696", "url": "assets/Botschaft_DE.pdf#page=696" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "strom",
+      "icon": "zap",
+      "paket": "optional",
+      "redaktion": "fertig",
+      "kapitel": "2.11",
+      "tags": [
+        "energie",
+        "konsum",
+        "kantone"
+      ],
+      "branchen": [
+        "energie",
+        "kantone"
+      ],
+      "system": [
+        "foederalismus",
+        "souveraenitaet"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Stromabkommen",
+          "teaser": "Teilnahme am EU-Strombinnenmarkt mit Marktöffnung; Gewerkschaften warnen vor Folgen für den Service public.",
+          "ziel": "Das Stromabkommen soll der Schweiz eine hindernisfreie Teilnahme am EU-Strombinnenmarkt ermöglichen und damit Versorgungssicherheit und Netzstabilität stärken – ausdrücklich ohne Vorgaben zu Wasserkraft-Konzessionen, Wasserzins, Heimfallrecht oder öffentlichem Eigentum an Wasserkraftanlagen.",
+          "statusQuo": "Die Schweiz ist über 41 grenzüberschreitende Leitungen physisch ins europäische Stromnetz eingebunden, gehört aber nicht zum EU-Strombinnenmarkt mit seinen harmonisierten Marktregeln. Die technische Zusammenarbeit (z. B. Swissgrid mit Nachbar-Netzbetreibern) beruht bisher auf privatrechtlichen, jährlich zu erneuernden Verträgen ohne völkerrechtliche Absicherung. Die Schweiz ist von zentralen europäischen Handelsplattformen (u. a. MARI, PICASSO) ausgeschlossen; allein im Day-Ahead-Handel betrug das europäische Marktvolumen 2024 rund 1800 TWh (ca. CHF 150 Mrd. Umsatz), an dem Schweizer Akteure nicht gekoppelt teilnehmen können.",
+          "pro": [
+            "Explizit ausgeklammert: Das Abkommen regelt weder Konzessionsvergabe, Wasserzins, Heimfallrecht noch öffentliches Eigentum an Wasserkraftanlagen – die einschlägigen EU-Richtlinien (Konzessionsvergabe-Richtlinie, Wasserrahmen-Richtlinie) stehen gar nicht auf der Liste der übernommenen Rechtsakte. Der Bundesrat hat erklärt, einer späteren Aufnahme solcher Vorgaben auch unter Androhung von EU-Ausgleichsmassnahmen nicht zuzustimmen.",
+            "Kantonale Wasserkraft-Hoheit bleibt gewahrt; das bestehende Konzessionsvergabeverfahren ist nicht betroffen.",
+            "Grundversorgung bleibt möglich: Haushalte und KMU unter einer Verbrauchsschwelle (50 MWh/Jahr, mit Übergangsregel bis 100 MWh für Kleinstunternehmen) können in regulierter Grundversorgung mit regulierten Preisen bleiben oder dorthin zurückkehren.",
+            "Keine Eigentumsvorgaben: Weder Swissgrid noch Verteilnetzbetreiber müssen privatisiert werden – öffentlich-rechtliche Trägerschaft bleibt möglich, nur organisatorisch (nicht eigentumsrechtlich) vom übrigen Geschäft getrennt.",
+            "Explizite Ausnahme von der dynamischen Rechtsübernahme beim Reservebedarf: Die Schweiz kann eigene Reserven (z. B. die Wasserkraftreserve) nach eigenen Kriterien bilden.",
+            "Grosse Mehrheit in der Vernehmlassung: 136 von 183 Stellungnahmen dafür, u. a. KdK, Energiedirektorenkonferenz (EnDK), 16 Kantone, FDP, GLP, Grüne, EVP, economiesuisse, Gewerbe- und Arbeitgeberverband, Gemeinde- und Städteverband, ElCom, Swissgrid, grosse Energieversorger sowie Konsumenten- und Umweltschutzverbände."
+          ],
+          "contra": [
+            "Neues Binnenmarktabkommen mit voller institutioneller Architektur: dynamische Rechtsübernahme, Beihilfeüberwachung, Streitbeilegung und Decision Shaping gelten auch hier – begrenzt auf die in den Anhängen I/V/VI gelisteten Rechtsakte, aber grundsätzlich wie bei anderen Binnenmarktabkommen.",
+            "25 von 183 Vernehmlassungsteilnehmenden lehnten das Abkommen ab (u. a. SVP, die Kantone Nidwalden und Wallis, der Berggebiets-Dachverband SAB und der Gewerkschaftsbund SGB) – Kritikpunkte: institutionelle Risiken, Autonomieverlust im Stromsektor, Gefährdung der Versorgungssicherheit, Abbau des Service public durch die Marktöffnung.",
+            "15 weitere Teilnehmende (u. a. die Kantone Glarus und Tessin, Die Mitte, der Bauernverband, der Verteilnetzbetreiber-Verband) unterstützten nur unter Vorbehalt – sie forderten mehr Rechtssicherheit zur Wasserkraft oder Anpassungen bei Arbeitnehmer- und Konsumentenschutz.",
+            "Die Forderung der Mitte, in der Botschaft verbindlich aufzuzeigen, wie die Förderung erneuerbarer Energien und die Grundversorgung gegen künftige negative EU-Rechtsentwicklungen abgesichert würden, erfüllte der Bundesrat nicht – er verweist stattdessen auf drei nachträgliche Handlungsoptionen (Decision Shaping, Aushandeln von Ausnahmen, Verweigerung der Übernahme).",
+            "Nicht verbindliches, aber ambitioniertes Ausbauziel: 48,4 % Anteil erneuerbarer Energien am Bruttoendenergieverbrauch bis 2030 (2024: rund 35,6 %) – ambitiös, aber ohne Sanktionsmechanismus bei Verfehlung ausser politischem Druck."
+          ],
+          "kantone": [
+            "Die kantonalen Hoheiten erhielten laut Botschaft bei den Verhandlungen besondere Beachtung; die direkten Auswirkungen beschränken sich auf einzelne Elemente der Vorlage.",
+            "Die Wasserkraft-Hoheit der Kantone bleibt vollständig gewahrt – weder Konzessionsvergabe noch Wasserzins oder Heimfallrecht sind Teil des Abkommens.",
+            "Einmaliger Umstellungsaufwand für Kantone und Städte mit eigenen Energieversorgern als Verwaltungseinheit: Striktere Entflechtungsvorgaben erfordern eine organisatorische (nicht eigentumsrechtliche) Trennung des Netzbetriebs vom übrigen Geschäft.",
+            "Der heute kantonal/kommunal geregelte Netzanschluss (Kosten, Bedingungen) geht spätestens fünf Jahre nach Inkrafttreten an die ElCom über – gedeckt durch die Bundeskompetenz nach Art. 91 BV.",
+            "Die Marktöffnung könnte regional unterschiedliche Stromtarife tendenziell ausgleichen, was sich finanziell auf kantonale/kommunale Energieunternehmen auswirken kann; gleichzeitig winken zusätzliche Handelsgewinne bei Speicher- und Pumpspeicherkraftwerken und damit höhere Steuer- und Dividendeneinnahmen."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Lehnte das Stromabkommen in der Vernehmlassung ab." },
+            "sp": { "status": "offen", "text": "Bezog laut Botschaft keine Position zum Abkommen." },
+            "fdp": { "status": "dafuer", "text": "Gehörte zu den 136 von 183 Vernehmlassungsteilnehmenden, die das Abkommen unterstützten." },
+            "mitte": { "status": "vorbehalt", "text": "Unterstützte das Abkommen nur unter Vorbehalt und forderte zusätzliche Rechtssicherheit zu Wasserkraft-Fragen sowie eine Absicherung gegen künftige negative EU-Rechtsentwicklungen." },
+            "glp": { "status": "dafuer", "text": "Gehörte zu den 136 von 183 Vernehmlassungsteilnehmenden, die das Abkommen unterstützten." },
+            "gruene": { "status": "dafuer", "text": "Gehörte zu den 136 von 183 Vernehmlassungsteilnehmenden, die das Abkommen unterstützten." },
+            "kdk": { "status": "dafuer", "text": "Gehörte zusammen mit der Energiedirektorenkonferenz (EnDK) und 16 einzelnen Kantonen zu den 136 Vernehmlassungsteilnehmenden, die das Abkommen unterstützten." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.11 Strom – Zusammenfassung", "ref": "S. 702–704", "url": "assets/Botschaft_DE.pdf#page=702" },
+            { "titel": "Botschaft, Kap. 2.11.3 – Verhandlungsziele & Ausnahmen (Wasserkraft, Grundversorgung)", "ref": "S. 705–707", "url": "assets/Botschaft_DE.pdf#page=705" },
+            { "titel": "Botschaft, Kap. 2.11.4.3–2.11.4.4 – Vernehmlassungsergebnisse", "ref": "S. 713–715", "url": "assets/Botschaft_DE.pdf#page=713" },
+            { "titel": "Botschaft, Kap. 2.11.9.2 – Auswirkungen auf Kantone", "ref": "S. 801–802", "url": "assets/Botschaft_DE.pdf#page=801" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lebensmittel",
+      "icon": "utensils",
+      "paket": "optional",
+      "redaktion": "fertig",
+      "kapitel": "2.12",
+      "tags": [
+        "landwirtschaft",
+        "konsum"
+      ],
+      "branchen": [
+        "landwirtschaft",
+        "gesundheit",
+        "kantone"
+      ],
+      "system": [
+        "souveraenitaet"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Lebensmittelsicherheit",
+          "teaser": "Gemeinsamer Lebensmittelsicherheitsraum mit der EU, als eigenes Protokoll zum Landwirtschaftsabkommen.",
+          "ziel": "Das Landwirtschaftsabkommen soll um einen gemeinsamen Lebensmittelsicherheitsraum erweitert werden, der neu auch nichttierische Lebensmittel und Pflanzenschutzmittel abdeckt – mit Zugang zu EU-Warnsystemen und der Lebensmittelbehörde EFSA, aber ausdrücklichen Ausnahmen bei Tierschutz und Gentechnik, um Schweizer Standards nicht zu senken.",
+          "statusQuo": "Die EU ist mit 51 % der Agrarexporte und 73 % der Agrarimporte (2024) die wichtigste Handelspartnerin der Schweiz im Agrarbereich, doch wesentliche Bereiche – insbesondere nichttierische Lebensmittel – sind vom bestehenden Landwirtschaftsabkommen bisher nicht erfasst. Bereits bestehende Bereiche (Pflanzengesundheit, Futtermittel, Saatgut, Veterinärbereich) wurden bisher nach der milderen Äquivalenzmethode umgesetzt, bei der die Schweiz eigenes, gleichwertiges Recht erlässt statt EU-Recht direkt zu übernehmen.",
+          "pro": [
+            "Stärkt den Konsumentenschutz: Die Schweiz erhält Zugang zu EU-Schnellwarnsystemen (u. a. RASFF/iRASFF) und zur Europäischen Behörde für Lebensmittelsicherheit (EFSA).",
+            "Erleichterter Marktzugang: Der Abbau nichttarifärer Handelshemmnisse deckt neu auch nichttierische Lebensmittel und Pflanzenschutzmittel ab; Unternehmen mit Produkten für beide Märkte sparen sich Anpassungen bei Verpackung oder Rezeptur.",
+            "Bestehende Ausnahmen bleiben, neue kommen dazu: Das Verbot von gentechnisch verändertem Saatgut und das Tiertransitverbot bleiben; neue Ausnahmen von der dynamischen Rechtsübernahme sichern insbesondere den Tierschutz und den Umgang mit gentechnisch veränderten Organismen gegen eine Senkung der Schweizer Standards ab.",
+            "Vollzug bleibt kantonal: Die amtlichen Kontrollen in Landwirtschafts- und Lebensmittelbetrieben führen weiterhin die kantonalen Behörden durch, nicht die EU-Kommission; Sonderregelungen für Hofläden, Marktstände und Vereinsanlässe bleiben unverändert.",
+            "Grenzschutz und Agrarpolitik-Souveränität bleiben unberührt: Zölle und das Direktzahlungssystem sind nicht Teil der Vorlage, eine Harmonisierung der Agrarpolitiken bleibt ausgeschlossen.",
+            "Mehrheitliche Unterstützung in der Vernehmlassung: 79 von 121 Stellungnahmen dafür, u. a. KdK und 15 Kantone sowie 5 von 6 Parteien (Die Mitte, FDP, Grüne, GLP, SP)."
+          ],
+          "contra": [
+            "Schärfere Rechtsübernahme als beim Agrarteil: Statt der milderen Äquivalenzmethode gilt hier die Integrationsmethode – EU-Rechtsakte werden nach Beschluss des Gemischten Ausschusses direkt Teil der Schweizer Rechtsordnung und können von Behörden unmittelbar angewendet werden, sofern hinreichend konkret.",
+            "18 von 121 Vernehmlassungsteilnehmenden lehnten das Protokoll ab (u. a. SVP, Schweizerischer Gewerbeverband); 24 weitere (u. a. die Kantone Schwyz, Obwalden, Nidwalden, Glarus, Thurgau, Bauernverband) bezogen keine klare Position.",
+            "Mehrere Kantone äusserten grundsätzliche Bedenken: Schwyz zur dynamischen Rechtsübernahme, Obwalden und Thurgau zur Belastung von KMU durch zunehmende EU-Rechtskomplexität, Nidwalden zur Sorge vor einer «Angleichung nach unten».",
+            "Mehrfach wurde eine Einschränkung der Bundeskompetenz gefordert: Mehrere Stellungnahmen (u. a. Schwyz, Basel-Stadt, Thurgau) verlangten, dass der Bund den Kantonen nur in ausserordentlichen Verhältnissen Massnahmen anweisen dürfe.",
+            "Zahlreiche themenfremde Änderungsanträge (z. B. Gewässerschutz, Agrarbudget, Cassis-de-Dijon-Prinzip) konnten laut Bundesrat nicht berücksichtigt werden, da sie nicht Gegenstand dieser Vorlage sind."
+          ],
+          "kantone": [
+            "Die kantonalen Vollzugsbehörden bleiben für die amtlichen Kontrollen zuständig; die Umstellung auf das neu integrierte EU-Recht erfordert laut Botschaft Schulungen (zunächst durch das BLV), führt aber zu keinen nennenswerten personellen oder organisatorischen Veränderungen.",
+            "KdK und 15 Kantone unterstützten die Vorlage ausdrücklich in der Vernehmlassung; kein Kanton lehnte sie ab, mehrere (Schwyz, Obwalden, Nidwalden, Thurgau) äusserten aber Bedenken zu dynamischer Rechtsübernahme, KMU-Belastung oder tieferen Standards.",
+            "Ein gewisser Mehraufwand entsteht beim Online-Handel und der Bekämpfung von Lebensmittelbetrug – dieser dürfte laut Botschaft teilweise durch wegfallende Kontrollen an traditionellen Verkaufsstellen kompensiert werden."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Lehnte das Protokoll zur Lebensmittelsicherheit in der Vernehmlassung ab." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den 5 von 6 Parteien, die das Protokoll in der Vernehmlassung befürworteten." },
+            "fdp": { "status": "dafuer", "text": "Gehörte zu den 5 von 6 Parteien, die das Protokoll in der Vernehmlassung befürworteten." },
+            "mitte": { "status": "dafuer", "text": "Gehörte zu den 5 von 6 Parteien, die das Protokoll in der Vernehmlassung befürworteten." },
+            "glp": { "status": "dafuer", "text": "Gehörte zu den 5 von 6 Parteien, die das Protokoll in der Vernehmlassung befürworteten." },
+            "gruene": { "status": "dafuer", "text": "Gehörte zu den 5 von 6 Parteien, die das Protokoll in der Vernehmlassung befürworteten." },
+            "kdk": { "status": "dafuer", "text": "Begrüsste zusammen mit 15 Kantonen die Erweiterung, insbesondere den Zugang zur EFSA und den erleichterten Marktzugang für Schweizer Lebensmittelproduzentinnen und -produzenten." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.12 Lebensmittelsicherheit – Zusammenfassung", "ref": "S. 816–817", "url": "assets/Botschaft_DE.pdf#page=816" },
+            { "titel": "Botschaft, Kap. 2.12.3.2 – Integrationsmethode & Ausnahmen", "ref": "S. 818–819", "url": "assets/Botschaft_DE.pdf#page=818" },
+            { "titel": "Botschaft, Kap. 2.12.4.3–2.12.4.4 – Vernehmlassungsergebnisse", "ref": "S. 820–822", "url": "assets/Botschaft_DE.pdf#page=820" },
+            { "titel": "Botschaft, Kap. 2.12.9.6.2 – Auswirkungen auf Kantone (Lebensmittelgesetz)", "ref": "S. 909", "url": "assets/Botschaft_DE.pdf#page=909" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gesundheit",
+      "icon": "heart",
+      "paket": "optional",
+      "redaktion": "fertig",
+      "kapitel": "2.13",
+      "tags": [
+        "gesundheit",
+        "kantone"
+      ],
+      "branchen": [
+        "gesundheit",
+        "kantone"
+      ],
+      "system": [
+        "foederalismus",
+        "souveraenitaet"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Gesundheitsabkommen",
+          "teaser": "Zusammenarbeit bei Gesundheitskrisen wie Pandemien, inklusive Frühwarnsysteme.",
+          "ziel": "Das Gesundheitsabkommen soll der Schweiz einen formalisierten, dauerhaften Zugang zu den EU-Gesundheitssicherheitsmechanismen und zum Europäischen Zentrum für Krankheitsprävention (ECDC) verschaffen – beschränkt auf Gesundheitssicherheit, ohne Zugang zum EU-Binnenmarkt oder Übernahme anderer Gesundheitspolitikbereiche wie Tabak oder Patientenrechte.",
+          "statusQuo": "Zwischen der Schweiz und der EU besteht bislang kein spezifisches Gesundheitsabkommen; ein 2018 fast fertig ausgehandeltes Abkommen scheiterte an ungeklärten institutionellen Fragen. Während der Covid-19-Pandemie erhielt die Schweiz nur einen zeitlich und inhaltlich begrenzten Ad-hoc-Zugang zu EU-Gesundheitssicherheitsmechanismen (u. a. Frühwarnsystem EWRS, Gesundheitssicherheitsausschuss HSC) – seit August 2023 hat sie auch diesen nicht mehr.",
+          "pro": [
+            "Direkter, ständiger Zugang zu EU-Frühwarnsystemen: Die Schweiz erhält laufenden Zugang zu epidemiologischen Daten, z. B. bei einer neuen Virusvariante, statt wie bisher nur in Krisenzeiten auf Ad-hoc-Zugang angewiesen zu sein.",
+            "Zugang zum ECDC inklusive Netzwerken zu übertragbaren Krankheiten und Antibiotikaresistenzen; die Schweiz kann zudem auf Wunsch an gemeinsamen EU-Beschaffungsverfahren für medizinische Gegenmassnahmen teilnehmen.",
+            "Souveränität bei innenpolitischen Massnahmen bleibt vollständig gewahrt: Über konkrete Massnahmen zur Verhütung oder Bewältigung von Gesundheitsbedrohungen in der Schweiz entscheidet sie weiterhin eigenständig.",
+            "Eng begrenzter Geltungsbereich: Das Abkommen deckt ausschliesslich Gesundheitssicherheit ab – Tabakpolitik, Patientenrechte in der grenzüberschreitenden Versorgung oder ein EU-Binnenmarktzugang im Gesundheitsbereich sind explizit ausgeschlossen; eine Erweiterung bräuchte ein reguläres Vertragsrevisionsverfahren.",
+            "Breite Unterstützung in der Vernehmlassung: 58 von 81 Stellungnahmen zum Gesundheitsabkommen dafür – darunter KdK und alle 18 sich äussernden Kantone sowie 6 von 7 Parteien (Die Mitte, EVP, FDP, Grüne, GLP, SP).",
+            "KdK und alle sich äussernden Kantone erachteten den mit dem Abkommen verbundenen Mehraufwand angesichts des Nutzens für den Bevölkerungsschutz als gerechtfertigt."
+          ],
+          "contra": [
+            "Jährliches Kostendach von CHF 50 Mio. für die finanzielle Beteiligung der Schweiz an den EU-Gesundheitssicherheitsmechanismen.",
+            "8 von 81 Stellungnahmen lehnten das Gesundheitsabkommen ab (u. a. SVP, Schweizerischer Gewerbeverband) – Kritikpunkte: Souveränitätsbedenken, Kosten und institutionelle Fragen.",
+            "15 Stellungnahmen (u. a. economiesuisse, Arbeitgeberverband, Bankiervereinigung) bezogen keine klare Position und hinterfragten insbesondere das Kosten-Nutzen-Verhältnis.",
+            "Verpasste Programmperiode: Da das Abkommen frühestens Ende 2026 in Kraft tritt, kann die Schweiz am laufenden EU-Gesundheitsprogramm «EU4Health» (2021–2027) gar nicht mehr teilnehmen – eine Teilnahme an der Nachfolgeperiode 2028–2034 bräuchte ein neues, separates Protokoll.",
+            "Die institutionellen Elemente (inkl. dynamischer Rechtsübernahme) finden auch hier «analog» Anwendung, soweit für das Funktionieren des Abkommens nötig – trotz des eng auf Gesundheitssicherheit begrenzten Geltungsbereichs."
+          ],
+          "kantone": [
+            "Die Umsetzung erfordert eine Ausweitung der nationalen Überwachung übertragbarer Krankheiten auf weitere Krankheitserreger gemäss ECDC-Empfehlungen – dies bedeutet laut Botschaft einen gewissen Mehraufwand für die Kantone bei Meldekriterien und Vollzug.",
+            "Das Programm «DigiSanté» (Projekt NASURE) soll den Mehraufwand durch Digitalisierung und automatisierten Datenaustausch abfedern.",
+            "KdK und alle sich äussernden Kantone unterstützten das Abkommen und erachteten den Mehraufwand angesichts des Nutzens für den Bevölkerungsschutz als gerechtfertigt; mehrere Stimmen (u. a. KdK, Kanton Basel-Stadt) forderten zusätzliche Ressourcen, damit die Umsetzung nicht zulasten anderer Gesundheitsbereiche geht."
+          ],
+          "positionen": {
+            "svp": { "status": "dagegen", "text": "Lehnte das Gesundheitsabkommen in der Vernehmlassung ab, mit Verweis auf Souveränitätsbedenken, Kosten und institutionelle Fragen." },
+            "sp": { "status": "dafuer", "text": "Gehörte zu den 6 von 7 Parteien, die das Abkommen befürworteten; forderte zusätzliche Ressourcen, damit die Umsetzung nicht zulasten anderer Gesundheitsbereiche geht." },
+            "fdp": { "status": "dafuer", "text": "Gehörte zu den 6 von 7 Parteien, die das Abkommen befürworteten." },
+            "mitte": { "status": "dafuer", "text": "Gehörte zu den 6 von 7 Parteien, die das Abkommen befürworteten." },
+            "glp": { "status": "dafuer", "text": "Gehörte zu den 6 von 7 Parteien, die das Abkommen befürworteten; betonte zusätzlich den Schutz der Wirtschaft als Argument." },
+            "gruene": { "status": "dafuer", "text": "Gehörte zu den 6 von 7 Parteien, die das Abkommen befürworteten." },
+            "kdk": { "status": "dafuer", "text": "KdK und alle sich äussernden Kantone unterstützten das Abkommen und erachteten den Mehraufwand angesichts des Nutzens als gerechtfertigt." }
+          },
+          "quellen": [
+            { "titel": "Botschaft Paket Schweiz–EU, Kap. 2.13 Gesundheit – Zusammenfassung", "ref": "S. 960–962", "url": "assets/Botschaft_DE.pdf#page=960" },
+            { "titel": "Botschaft, Kap. 2.13.3 – Verhandlungsziele (Kostendach, Geltungsbereich)", "ref": "S. 963–964", "url": "assets/Botschaft_DE.pdf#page=963" },
+            { "titel": "Botschaft, Kap. 2.13.4.3.1 – Vernehmlassungsergebnisse Gesundheitsabkommen", "ref": "S. 966", "url": "assets/Botschaft_DE.pdf#page=966" },
+            { "titel": "Botschaft, Kap. 2.13.8.2 – Auswirkungen auf Kantone", "ref": "S. 983", "url": "assets/Botschaft_DE.pdf#page=983" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dialog",
+      "icon": "message",
+      "paket": "begleit",
+      "redaktion": "fertig",
+      "kapitel": "2.14–2.15",
+      "tags": [
+        "stimmvolk",
+        "kantone"
+      ],
+      "branchen": [
+        "kantone"
+      ],
+      "system": [
+        "demokratie"
+      ],
+      "inhalt": {
+        "de": {
+          "titel": "Hochrangiger Dialog & parlamentarische Zusammenarbeit",
+          "teaser": "Ein jährlicher politischer Dialog auf Ministerebene und ein neuer Gemischter Parlamentarischer Ausschuss sollen den Austausch zwischen der Schweiz und der EU institutionalisieren.",
+          "ziel": "Einen regelmässigen politischen Austausch auf Ministerstufe zwischen der Schweiz und der EU schaffen, der die bestehenden Fachdialoge um eine strategische Gesamtschau ergänzt – zusammen mit einem neuen, institutionalisierten Austausch zwischen Bundesversammlung und Europäischem Parlament, der die demokratische Verankerung der Abkommen stärken soll.",
+          "statusQuo": "Die Schweiz pflegt mit der EU bereits einen fachlichen Austausch über die sektoriellen Gemischten Ausschüsse der bestehenden Abkommen (in der Regel mindestens einmal jährlich) sowie über Spezialdialoge wie den 2024 wiederaufgenommenen Finanzmarkt-Regulierungsdialog (seit 2017 unterbrochen gewesen). Einen übergeordneten, regelmässigen politischen Austausch auf Ministerebene gibt es bislang nicht – anders als etwa beim EWR-Rat der EWR-Staaten oder beim Partnerschaftsrat mit dem Vereinigten Königreich. Parlamentarisch bestehen heute nur informelle Formate (EFTA/EU-Delegation, jährliches «interparlamentarisches Treffen», Teilnahme an der COSAC), aber kein institutionalisierter Ausschuss, wie ihn der EWR oder das Vereinigte Königreich kennen.",
+          "pro": [
+            "Erstmals ein regelmässiger politischer Austausch auf Ministerstufe: Der hochrangige Dialog wird gemeinsam vom EDA-Vorsteher und dem für die Schweiz zuständigen Mitglied der EU-Kommission geleitet, findet jährlich abwechselnd in der Schweiz und Brüssel statt – erstmals innerhalb von drei Monaten nach Inkrafttreten des Pakets.",
+            "Ergänzt, ersetzt aber nichts: Die bestehenden Gemischten Ausschüsse und Fachdialoge bleiben unverändert bestehen; der neue Dialog bietet zusätzlich eine strategische Gesamtschau über die Beziehungen.",
+            "Flexible Delegation: Die Schweiz kann neben dem EDA-Vorsteher weitere Bundesratsmitglieder, eine Vertretung der Kantone oder Fachexpertinnen und -experten einbeziehen.",
+            "Rechtlich unverbindlich und ohne Mehrkosten: Die Gemeinsame Erklärung fällt in die alleinige Kompetenz des Bundesrats (Art. 184 Abs. 1 BV), braucht kein Referendum und verursacht laut Botschaft keine zusätzlichen Kosten oder Stellen beim Bund.",
+            "Neuer Gemischter Parlamentarischer Ausschuss: ein institutionalisiertes Gremium mit gleicher Anzahl Mitgliedern aus Bundesversammlung und Europäischem Parlament, das mindestens einmal jährlich tagt, Informationen zum Abkommensvollzug einholen und Empfehlungen – auch an den hochrangigen Dialog – richten kann.",
+            "Stärkt die demokratische Verankerung: Die Aussenpolitische Kommission des Ständerats hatte einen solchen institutionalisierten Austausch 2024 explizit gefordert; der Bundesrat nahm die Forderung vollständig ins Verhandlungsmandat auf und erreichte sie laut eigener Einschätzung vollumfänglich."
+          ],
+          "contra": [
+            "Der hochrangige Dialog ist ein rein politisches Instrument ohne rechtliche Verbindlichkeit – seine Wirkung hängt vom politischen Willen beider Seiten ab, nicht von einklagbaren Verpflichtungen.",
+            "Die konkrete Zusammensetzung der Delegationen bleibt offen; auch der Parlamentarische Ausschuss legt seine Modalitäten (z. B. Mitgliederzahl) erst nach seiner Einsetzung selbst fest – zum Zeitpunkt der Botschaft noch nicht geregelt.",
+            "Das Protokoll über die parlamentarische Zusammenarbeit ist zwar ein rechtsverbindlicher Vertrag, unterliegt aber als besonderer Bundesbeschluss nicht dem Referendum.",
+            "In der Vernehmlassung lehnte einzig die SVP beide Instrumente ab; die KdK verlangte eine verbindlichere Beteiligung der Kantone am hochrangigen Dialog, als die Botschaft vorsieht (dort nur eine «Möglichkeit» zur Teilnahme).",
+            "Zusätzlicher administrativer Aufwand: Die Parlamentsdienste rechnen für die verstärkte parlamentarische Zusammenarbeit mit einer zusätzlichen Vollzeitstelle."
+          ],
+          "kantone": [
+            "Kantone haben keinen garantierten Sitz im hochrangigen Dialog; die Botschaft sieht nur die «Möglichkeit» einer kantonalen Vertretung vor, deren genaue Modalitäten erst in einer separaten, noch in Ausarbeitung befindlichen Bund-Kantone-Vereinbarung zur Aussenpolitik geregelt werden.",
+            "Laut Botschaft hat die Einrichtung des hochrangigen Dialogs keine direkten finanziellen oder personellen Auswirkungen auf Kantone und Gemeinden; diese Frage wurde deshalb nicht weiter vertieft geprüft.",
+            "Der Kanton Tessin forderte in der Vernehmlassung, dass sich der hochrangige Dialog explizit auch dem EU-Marktzugang für Schweizer Finanzdienstleister annehmen solle.",
+            "Der neue Parlamentarische Ausschuss ist ein reines Bundesorgan (Bundesversammlung und Europäisches Parlament); eine direkte kantonale Mitwirkung ist darin nicht vorgesehen."
+          ],
+          "positionen": {
+            "svp": {
+              "status": "dagegen",
+              "text": "Als einzige Partei lehnte die SVP in der Vernehmlassung sowohl den hochrangigen Dialog als auch die verstärkte parlamentarische Zusammenarbeit ab."
+            },
+            "sp": {
+              "status": "dafuer",
+              "text": "Unterstützte beide Instrumente in der Vernehmlassung; machte beim Parlamentarischen Ausschuss als einzige Partei konkrete Vorschläge zu dessen Grösse und Zusammensetzung."
+            },
+            "fdp": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesen beiden Instrumenten dokumentiert."
+            },
+            "mitte": {
+              "status": "dafuer",
+              "text": "Unterstützte den hochrangigen Dialog und die parlamentarische Zusammenarbeit in der Vernehmlassung; forderte zusätzlich einen sach- und stufengerechten Einbezug von Parlament und Kantonen sowie eine rasche Einrichtung des separaten Dialogs mit der Hohen Vertreterin der EU."
+            },
+            "glp": {
+              "status": "offen",
+              "text": "Keine gesonderte Position zu diesen beiden Instrumenten dokumentiert."
+            },
+            "gruene": {
+              "status": "dafuer",
+              "text": "Unterstützte beide Instrumente in der Vernehmlassung."
+            },
+            "kdk": {
+              "status": "vorbehalt",
+              "text": "Begrüsst grundsätzlich die Einrichtung des hochrangigen Dialogs, fordert aber eine verbindlichere, laufende Beteiligung der Kantone, sofern ihre Kompetenzen oder wesentlichen Interessen betroffen sind."
+            }
+          },
+          "quellen": [
+            {
+              "ref": "S. 987–994",
+              "url": "assets/Botschaft_DE.pdf#page=987",
+              "titel": "Botschaft Paket Schweiz–EU, Kap. 2.14 Hochrangiger Dialog"
+            },
+            {
+              "ref": "S. 991",
+              "url": "assets/Botschaft_DE.pdf#page=991",
+              "titel": "Botschaft, Kap. 2.14.4.3 – Vernehmlassungsergebnisse Hochrangiger Dialog"
+            },
+            {
+              "ref": "S. 995–1001",
+              "url": "assets/Botschaft_DE.pdf#page=995",
+              "titel": "Botschaft, Kap. 2.15 Zusammenarbeit der Parlamente"
+            },
+            {
+              "ref": "S. 997–998",
+              "url": "assets/Botschaft_DE.pdf#page=997",
+              "titel": "Botschaft, Kap. 2.15.4.3 – Vernehmlassungsergebnisse Parlamentarische Zusammenarbeit"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

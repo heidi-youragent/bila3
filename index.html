@@ -34,7 +34,7 @@
     .chev { transition: transform .2s; }
     .rot { transform: rotate(180deg); }
     .thema { scroll-margin-top: 24px; }
-    #impressum { scroll-margin-top: 24px; }
+    #impressum, #kompass-detail { scroll-margin-top: 16px; }
   </style>
 </head>
 <body class="bg-ground text-ink font-sans antialiased">
@@ -157,20 +157,21 @@
     mode: 'alle',          // 'branchen' | 'system' | 'alle'
     paketFilter: 'all',    // 'all' | 'haupt' | 'optional' | 'begleit'
     actor: 'bundesrat',
-    open: { institutionell: true, 'system-check': true },
+    open: window.matchMedia('(max-width: 639px)').matches ? {} : { institutionell: true, 'system-check': true },
     posOpen: {},
     srcOpen: {}
   };
 
   /* ===================== HILFSFUNKTIONEN ===================== */
   function $(id) { return document.getElementById(id); }
+  function isMobile() { return window.matchMedia('(max-width: 639px)').matches; }
   function esc(s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
   function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
-  function pick(obj) { if (!obj) return ''; return obj[state.lang] || obj.de || ''; }
+  function pick(obj) { if (!obj) return ''; if (typeof obj === 'string') return obj; return obj[state.lang] || obj.de || ''; }
   function L() { return Object.assign({}, state.data.ui.de, state.data.ui[state.lang] || {}); }
   function icon(d, size, sw, extra) {
     return '<svg viewBox="0 0 24 24" width="' + (size || 18) + '" height="' + (size || 18) + '" fill="none" stroke="currentColor" stroke-width="' + (sw || 1.75) + '" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"' + (extra ? ' class="' + extra + '"' : '') + '><path d="' + d + '"/></svg>';
@@ -216,23 +217,85 @@
         '<h1 class="m-0 font-serif text-4xl sm:text-[44px] leading-[1.1] font-semibold tracking-[-0.01em] text-[#121417]">' + esc(l.heroTitle) + '</h1>' +
         '<p class="mt-4 mb-0 text-lg leading-relaxed text-[#3D4047] max-w-[60ch]">' + esc(l.heroLead) + '</p>' +
       '</div>' +
-      '<aside class="bg-white border border-line rounded-xl px-5 py-[18px]">' +
-        '<h2 class="m-0 mb-2 flex items-center gap-2 text-[13px] font-semibold tracking-[0.06em] uppercase text-navy">' + icon(ICONS.clock, 16, 2) + esc(l.statusTitle) + '</h2>' +
-        '<p class="m-0 text-[15px] leading-relaxed">' + esc(pick(state.data.meta.status)) + '</p>' +
-      '</aside>';
+      '<aside id="status" class="bg-white border border-line rounded-xl px-5 py-[18px]"></aside>';
+    renderStatus();
+  }
+
+  /* ===================== RENDER: STATUS & VERLAUF ===================== */
+  function fmtDatum(iso) {
+    var p = String(iso).split('-');
+    return p.length === 3 ? (+p[2]) + '.' + (+p[1]) + '.' + p[0] : iso;
+  }
+  function renderStatus() {
+    var l = L(), V = state.data.verlauf || {};
+    var etappen = V.etappen || [], entfallen = V.entfallen || [];
+    var eintraege = (V.eintraege || []).slice().sort(function (a, b) { return a.datum < b.datum ? 1 : -1; });
+    var head = '<h2 class="m-0 mb-3 flex items-center gap-2 text-[13px] font-semibold tracking-[0.06em] uppercase text-navy">' + icon(ICONS.clock, 16, 2) + esc(l.statusTitle) + '</h2>';
+    if (!eintraege.length) { $('status').innerHTML = head; return; }
+
+    // Aktuelle Etappe: die des neuesten Eintrags – oder die nächste, falls diese erledigt ist (entfallene überspringen)
+    var neu = eintraege[0];
+    var ids = etappen.map(function (e) { return e.id; });
+    var cur = ids.indexOf(neu.etappe);
+    if (neu.erledigt) cur++;
+    while (cur < ids.length && entfallen.indexOf(ids[cur]) >= 0) cur++;
+
+    var dots = etappen.map(function (e, i) {
+      var weg = entfallen.indexOf(e.id) >= 0, done = !weg && i < cur, now = i === cur;
+      var dot = weg ? '<span class="block w-5 h-5 rounded-full border-2 border-dashed border-[#C9C6BC] bg-white"></span>'
+        : done ? '<span class="w-5 h-5 rounded-full bg-[#2E7D4A] text-white flex items-center justify-center">' + icon('M20 6L9 17l-5-5', 12, 3) + '</span>'
+        : now ? '<span class="block w-5 h-5 rounded-full bg-navy ring-4 ring-[#D6E0EE]"></span>'
+        : '<span class="block w-5 h-5 rounded-full border-2 border-[#B9B6AE] bg-white"></span>';
+      var line = i < etappen.length - 1 ? '<span class="absolute top-[9px] left-1/2 w-full h-0.5 ' + (i < cur ? 'bg-[#2E7D4A]' : 'bg-[#E1DED5]') + '" aria-hidden="true"></span>' : '';
+      var lab = '<span class="hidden sm:block mt-1.5 text-[11px] leading-tight text-center hyphens-auto ' +
+        (now ? 'font-semibold text-navy' : weg ? 'line-through text-[#8C8F96]' : done ? 'text-[#3D4047]' : 'text-[#8C8F96]') + '">' + esc(pick(e.label)) + (weg ? ' (' + esc(l.entfaellt) + ')' : '') + '</span>';
+      return '<li class="relative flex-1 min-w-0 flex flex-col items-center"' + (now ? ' aria-current="step"' : '') + '>' + line +
+        '<span class="relative block">' + dot + '</span>' + lab + '</li>';
+    }).join('');
+    var curLabel = cur < etappen.length ? pick(etappen[cur].label) : '';
+    var stepper =
+      '<ol class="list-none m-0 p-0 flex" aria-label="' + esc(l.statusTitle) + '">' + dots + '</ol>' +
+      (curLabel ? '<p class="sm:hidden mt-2 mb-0 text-[13px] text-[#3D4047]">' + esc(l.etappe) + ' ' + (cur + 1) + ' ' + esc(l.von) + ' ' + etappen.length + ': <strong class="text-navy">' + esc(curLabel) + '</strong></p>' : '');
+
+    function eintrag(e, gross) {
+      var q = e.quelle ? '<span class="block mt-0.5"><a href="' + esc(pick(e.quelle.url)) + '" target="_blank" rel="noopener" class="inline-block py-2 sm:py-0.5 text-[13px] text-navy underline underline-offset-[3px]">' + esc(pick(e.quelle.label)) + '</a></span>' : '';
+      return gross
+        ? '<p class="mt-4 mb-1 text-[13px] text-muted">' + esc(fmtDatum(e.datum)) + '</p>' +
+          '<p class="m-0 font-semibold text-[15px]">' + esc(pick(e.titel)) + '</p>' +
+          '<p class="mt-1 mb-0 text-[15px] leading-relaxed">' + esc(pick(e.text)) + q + '</p>'
+        : '<li class="relative pl-5 pb-3 last:pb-0 border-l-2 border-[#E1DED5] ml-1">' +
+            '<span class="absolute -left-[6px] top-1.5 w-2.5 h-2.5 rounded-full bg-[#B9B6AE]" aria-hidden="true"></span>' +
+            '<span class="block text-[12px] text-muted">' + esc(fmtDatum(e.datum)) + '</span>' +
+            '<span class="block text-[14px] font-semibold leading-snug">' + esc(pick(e.titel)) + '</span>' +
+            '<span class="block text-[14px] leading-normal text-[#3D4047]">' + esc(pick(e.text)) + q + '</span>' +
+          '</li>';
+    }
+
+    // Zugeklappt nur die Grafik; Details (neuester Eintrag + ältere Einträge) erst nach Aufklappen
+    var aeltere = eintraege.slice(1), open = !!state.open.verlauf;
+    var verlauf =
+      '<button type="button" data-action="toggle" data-value="verlauf" aria-expanded="' + open + '" aria-controls="verlauf-details" class="mt-2 inline-flex items-center gap-1.5 min-h-[44px] text-[13px] font-medium text-navy underline underline-offset-[3px]">' +
+        esc(open ? l.verlaufAusblenden : l.verlaufZeigen) + ' (' + eintraege.length + ')' + icon(ICONS.chevron, 15, 2, 'chev' + (open ? ' rot' : '')) + '</button>' +
+      (open ? '<div id="verlauf-details">' + eintrag(neu, true).replace('mt-4', 'mt-1') +
+        (aeltere.length ? '<ol class="list-none m-0 mt-4 p-0">' + aeltere.map(function (e) { return eintrag(e, false); }).join('') + '</ol>' : '') + '</div>' : '');
+
+    $('status').innerHTML = head + stepper + verlauf;
   }
 
   /* ===================== RENDER: SYSTEM-CHECK (DYNAMISCHE RECHTSÜBERNAHME) ===================== */
   function renderSystemCheck() {
     var l = L();
     var open = !!state.open['system-check'];
+    var sc = state.data.systemCheck || {};
+    var S = sc[state.lang] || sc.de || {};
+    var onlyDe = state.lang !== 'de' && !sc[state.lang];
 
     var head =
-      '<button type="button" data-action="toggle" data-value="system-check" aria-expanded="' + open + '" class="w-full text-left flex gap-4 items-start px-5 pt-5 pb-[18px] min-h-[44px] hover:bg-[#FCFBF8]">' +
-        '<span class="flex-none w-11 h-11 rounded-[10px] bg-navy text-white flex items-center justify-center">' + icon(ICONS.scale, 22) + '</span>' +
+      '<button type="button" data-action="toggle" data-value="system-check" aria-expanded="' + open + '" class="w-full text-left flex gap-3 sm:gap-4 items-start px-4 sm:px-5 pt-4 sm:pt-5 pb-4 sm:pb-[18px] min-h-[44px] hover:bg-[#FCFBF8]">' +
+        '<span class="hidden sm:flex flex-none w-11 h-11 rounded-[10px] bg-navy text-white items-center justify-center">' + icon(ICONS.scale, 22) + '</span>' +
         '<span class="flex-1 min-w-0 flex flex-col gap-2">' +
-          '<span id="system-check-titel" class="font-serif text-[22px] leading-tight font-semibold text-[#121417]">Kernmechanismus: Dynamische Rechtsübernahme &amp; Volksentscheid</span>' +
-          '<span class="text-[15px] leading-normal text-muted">Wie EU-Rechtsübernahme, Schweizer Parlament, Referendum und Schiedsgericht zusammenspielen.</span>' +
+          '<span id="system-check-titel" class="font-serif text-[20px] sm:text-[22px] leading-tight font-semibold text-[#121417]">' + esc(S.titel) + '</span>' +
+          '<span class="text-[15px] leading-normal text-muted">' + esc(S.untertitel) + '</span>' +
         '</span>' +
         '<span class="flex-none w-9 h-9 rounded-full border border-line flex items-center justify-center">' + icon(ICONS.chevron, 18, 2, 'chev' + (open ? ' rot' : '')) + '</span>' +
       '</button>';
@@ -242,29 +305,28 @@
       return;
     }
 
-    var hinweis = state.lang !== 'de'
+    var hinweis = onlyDe
       ? '<p class="m-0 text-[13px] text-navy bg-[#EEF2F7] px-3 py-2 rounded-lg">' + esc(l.onlyDe) + '</p>'
       : '';
 
-    var steps = [
-      { icon: ICONS.globe, tone: 'bg-[#EEF2F7] text-navy', title: 'EU-Beschluss',
-        text: 'Die EU entwickelt ihr Recht weiter. Fällt ein neuer Rechtsakt in den Geltungsbereich eines Binnenmarktabkommens, muss der paritätische Gemischte Ausschuss einstimmig über dessen Übernahme entscheiden.' },
-      { icon: ICONS.landmark, tone: 'bg-[#EEF2F7] text-navy', title: 'Schweizer Parlament',
-        text: 'Jede Übernahme ist eine Vertragsänderung und durchläuft das reguläre staatsvertragliche Genehmigungsverfahren der Bundesversammlung – es gibt keinen Automatismus.' },
-      { icon: ICONS.users, tone: 'bg-[#FBEFCF] text-[#6E4A00]', title: 'Referendum',
-        text: 'Je nach Erlassform kann das Stimmvolk ein Referendum ergreifen und die Übernahme ablehnen. Erst danach wird ein Rechtsakt für die Schweiz verbindlich – oder eben nicht.' },
-      { icon: ICONS.alert, tone: 'bg-[#FCF0E6] text-[#8A3D00]', title: 'Bei Nein: Ausgleichsmassnahmen',
-        text: 'Lehnt die Schweiz eine fällige Übernahme ab, kann die EU – erst nach einer Verletzungsfeststellung durch das Schiedsgericht und frühestens drei Monate nach Notifizierung – verhältnismässige Ausgleichsmassnahmen in einem Binnenmarktabkommen ergreifen.' },
-      { icon: ICONS.scale, tone: 'bg-[#EEEDE8] text-[#4F5259]', title: 'Schiedsgericht',
-        text: 'Ein paritätisch besetztes Schiedsgericht entscheidet abschliessend über den Streitfall und prüft auf Verlangen auch die Verhältnismässigkeit der Ausgleichsmassnahmen. Der EuGH wird nur zur Auslegung von EU-Recht beigezogen – er entscheidet nie selbst.' }
+    var STEP_STYLE = [
+      { icon: ICONS.globe,    tone: 'bg-[#EEF2F7] text-navy' },
+      { icon: ICONS.landmark, tone: 'bg-[#EEF2F7] text-navy' },
+      { icon: ICONS.users,    tone: 'bg-[#FBEFCF] text-[#6E4A00]' },
+      { icon: ICONS.alert,    tone: 'bg-[#FCF0E6] text-[#8A3D00]' },
+      { icon: ICONS.scale,    tone: 'bg-[#EEEDE8] text-[#4F5259]' }
     ];
+    var steps = (S.schritte || []).map(function (x, i) {
+      var st = STEP_STYLE[i] || STEP_STYLE[STEP_STYLE.length - 1];
+      return { icon: st.icon, tone: st.tone, title: x.titel, text: x.text };
+    });
     var chain = steps.map(function (s, i) {
       return '<div class="relative bg-white border border-[#E6E3DA] rounded-[10px] p-4 flex flex-col gap-2">' +
           (i > 0 ? '<span class="hidden lg:flex absolute -left-[18px] top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-ground border border-[#E6E3DA] items-center justify-center text-[#8A8D93]" aria-hidden="true">' + icon(ICONS.arrowRight, 13, 2.25) + '</span>' : '') +
           '<span class="inline-flex items-center gap-2">' +
             '<span class="flex-none w-8 h-8 rounded-full ' + s.tone + ' flex items-center justify-center">' + icon(s.icon, 16, 2) + '</span>' +
             '<span class="inline-flex items-center gap-1 text-[11px] font-semibold tracking-[0.06em] uppercase text-[#8A8D93]">' +
-              (i > 0 ? '<span class="lg:hidden" aria-hidden="true">' + icon(ICONS.arrowRight, 11, 2.25) + '</span>' : '') + 'Schritt ' + (i + 1) +
+              (i > 0 ? '<span class="lg:hidden" aria-hidden="true">' + icon(ICONS.arrowRight, 11, 2.25) + '</span>' : '') + esc(l.step) + ' ' + (i + 1) +
             '</span>' +
           '</span>' +
           '<span class="font-semibold text-[15px] leading-snug">' + esc(s.title) + '</span>' +
@@ -272,31 +334,21 @@
         '</div>';
     }).join('');
 
-    var proItems = [
-      'Kein Automatismus: Die Schweiz entscheidet eigenständig über jede einzelne Rechtsübernahme – inklusive Referendum.',
-      'Der EuGH entscheidet nie über einen Streitfall; er legt EU-Recht nur aus, wenn das Schiedsgericht ihn dafür anruft.',
-      'Ausgleichsmassnahmen sind auf die Binnenmarktabkommen beschränkt und müssen verhältnismässig sein – das Schiedsgericht prüft dies auf Verlangen.',
-      'Eine automatische dreimonatige Wartefrist verhindert, dass Ausgleichsmassnahmen sofort nach der Notifizierung in Kraft treten.'
-    ];
-    var contraItems = [
-      'Ein Volks-Nein kann einen monatelangen Schwebezustand auslösen, bis ein Streitfall vollständig beigelegt ist.',
-      'Ob eine Ausgleichsmassnahme «verhältnismässig» ist, entscheidet letztlich ein Schiedsgericht – nicht direkt die Schweizer Stimmbevölkerung.',
-      'Für Unternehmen und Behörden entsteht Planungsunsicherheit, solange ein Streitverfahren läuft.',
-      'Kritiker befürchten, dass der politische Druck, ein Nein zu vermeiden, die faktische demokratische Freiheit einschränkt.'
-    ];
+    var proItems = S.pro || [];
+    var contraItems = S.contra || [];
     var li = function (arr) { return arr.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join(''); };
 
     var body =
       '<div class="border-t border-[#E6E3DA] p-5 flex flex-col gap-5 bg-[#FCFBF8]">' +
         hinweis +
-        '<p class="m-0 text-[15px] leading-relaxed text-[#3D4047] max-w-[75ch]">Damit die Binnenmarktabkommen funktionsfähig bleiben, übernimmt die Schweiz grundsätzlich neue EU-Rechtsakte, die in deren Geltungsbereich fallen. Gleichzeitig bleibt das Schweizer Referendumsrecht vollständig gewahrt – jede Übernahme durchläuft das reguläre staatsvertragliche Verfahren. Genau hier liegt der Zielkonflikt: verlässlicher Binnenmarktzugang und Rechtssicherheit auf der einen Seite, demokratische Mitsprache mit echtem Ablehnungsrisiko auf der anderen.</p>' +
+        '<p class="m-0 text-[15px] leading-relaxed text-[#3D4047] max-w-[75ch]">' + esc(S.intro) + '</p>' +
         '<div class="grid gap-3 lg:gap-6" style="grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr))">' + chain + '</div>' +
         '<div class="grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr))">' +
           '<section class="bg-[#EFF6F0] border border-[#BFD9C6] rounded-[10px] p-4">' +
-            '<h3 class="m-0 mb-2.5 flex gap-2 items-center text-[15px] leading-snug text-[#1C5E33]"><span class="flex-none w-6 h-6 rounded-full bg-[#1C5E33] text-white flex items-center justify-center">' + icon(ICONS.plus, 14, 2.5) + '</span>Spricht für mehr Sicherheit</h3>' +
+            '<h3 class="m-0 mb-2.5 flex gap-2 items-center text-[15px] leading-snug text-[#1C5E33]"><span class="flex-none w-6 h-6 rounded-full bg-[#1C5E33] text-white flex items-center justify-center">' + icon(ICONS.plus, 14, 2.5) + '</span>' + esc(S.proTitel) + '</h3>' +
             '<ul class="m-0 pl-5 list-disc flex flex-col gap-2 text-[14px] leading-normal">' + li(proItems) + '</ul></section>' +
           '<section class="bg-[#FCF0E6] border border-[#EBC7A6] rounded-[10px] p-4">' +
-            '<h3 class="m-0 mb-2.5 flex gap-2 items-center text-[15px] leading-snug text-[#8A3D00]"><span class="flex-none w-6 h-6 rounded-full bg-[#A14A00] text-white flex items-center justify-center">' + icon(ICONS.minus, 14, 2.5) + '</span>Bleibt Entscheidungsunsicherheit</h3>' +
+            '<h3 class="m-0 mb-2.5 flex gap-2 items-center text-[15px] leading-snug text-[#8A3D00]"><span class="flex-none w-6 h-6 rounded-full bg-[#A14A00] text-white flex items-center justify-center">' + icon(ICONS.minus, 14, 2.5) + '</span>' + esc(S.contraTitel) + '</h3>' +
             '<ul class="m-0 pl-5 list-disc flex flex-col gap-2 text-[14px] leading-normal">' + li(contraItems) + '</ul></section>' +
         '</div>' +
       '</div>';
@@ -351,10 +403,10 @@
         '</div>' +
       '</div>' +
       '<div class="grid gap-3" style="grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr))">' + cards + '</div>' +
-      '<div class="bg-white border border-line rounded-xl p-5 flex flex-col gap-4" aria-live="polite">' +
+      '<div id="kompass-detail" class="bg-white border border-line rounded-xl p-5 flex flex-col gap-4" aria-live="polite">' +
         '<div class="flex flex-wrap items-center gap-2.5">' +
           '<h3 class="m-0 font-serif text-[22px] font-semibold">' + esc(pick(a.name)) + '</h3>' + statusBadge(a.status, l) +
-          (a.quelle ? '<a href="' + esc(a.quelle.url) + '" target="_blank" rel="noopener" class="ml-auto text-[13px] text-navy underline underline-offset-[3px]">' + esc(a.quelle.label) + '</a>' : '') +
+          (a.quelle ? '<a href="' + esc(pick(a.quelle.url)) + '" target="_blank" rel="noopener" class="ml-auto inline-block py-2.5 sm:py-0 text-[13px] text-navy underline underline-offset-[3px]">' + esc(pick(a.quelle.label)) + '</a>' : '') +
         '</div>' +
         '<div class="grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr))">' +
           '<div><h4 class="m-0 mb-2 text-[13px] font-semibold tracking-[0.06em] uppercase text-[#1C5E33]">' + esc(l.supports) + '</h4>' + points(a.unterstuetzt) + '</div>' +
@@ -376,13 +428,15 @@
     }).join('');
 
     var head =
-      '<button type="button" data-action="toggle" data-value="' + esc(t.id) + '" aria-expanded="' + open + '" class="w-full text-left flex gap-4 items-start px-5 pt-5 pb-[18px] min-h-[44px] hover:bg-[#FCFBF8]">' +
-        '<span class="flex-none w-11 h-11 rounded-[10px] bg-[#EEF2F7] text-navy flex items-center justify-center">' + icon(ICONS[t.icon] || ICONS.package, 22) + '</span>' +
+      '<button type="button" data-action="toggle" data-value="' + esc(t.id) + '" aria-expanded="' + open + '" class="w-full text-left flex gap-3 sm:gap-4 items-start px-4 sm:px-5 pt-4 sm:pt-5 pb-4 sm:pb-[18px] min-h-[44px] hover:bg-[#FCFBF8]">' +
+        '<span class="hidden sm:flex flex-none w-11 h-11 rounded-[10px] bg-[#EEF2F7] text-navy items-center justify-center">' + icon(ICONS[t.icon] || ICONS.package, 22) + '</span>' +
         '<span class="flex-1 min-w-0 flex flex-col gap-2">' +
-          '<span class="flex flex-wrap gap-1.5 items-center">' + paketBadge(t.paket, l) + tags +
+          '<span class="flex flex-wrap gap-1.5 items-center">' +
+            '<span class="sm:hidden flex-none w-7 h-7 rounded-lg bg-[#EEF2F7] text-navy flex items-center justify-center">' + icon(ICONS[t.icon] || ICONS.package, 16) + '</span>' +
+            paketBadge(t.paket, l) + tags +
             (fertig ? '' : '<span class="text-xs text-[#5A3E00] border border-dashed border-[#B48A2C] px-2 py-[3px] rounded-full">' + esc(l.inArbeit) + '</span>') +
           '</span>' +
-          '<span class="font-serif text-[22px] leading-tight font-semibold text-[#121417]">' + esc(C.titel || t.id) + '</span>' +
+          '<span class="font-serif text-[20px] sm:text-[22px] leading-tight font-semibold text-[#121417]">' + esc(C.titel || t.id) + '</span>' +
           '<span class="text-[15px] leading-normal text-muted">' + esc(C.teaser) + '</span>' +
         '</span>' +
         '<span class="flex-none w-9 h-9 rounded-full border border-line flex items-center justify-center">' + icon(ICONS.chevron, 18, 2, 'chev' + (open ? ' rot' : '')) + '</span>' +
@@ -443,7 +497,7 @@
     body +=
       '<div class="border border-[#E6E3DA] rounded-[10px] bg-white">' +
         '<button type="button" data-action="src" data-value="' + esc(t.id) + '" aria-expanded="' + srcOpen + '" class="w-full text-left min-h-[48px] px-4 py-3 flex items-center gap-2.5 text-[15px] font-semibold">' +
-          icon(ICONS.book, 18) + '<span class="flex-1">' + esc(l.quellen) + ' · ' + esc(l.chapter) + ' Kap. ' + esc(t.kapitel) + '</span>' + icon(ICONS.chevron, 16, 2, 'chev' + (srcOpen ? ' rot' : '')) +
+          icon(ICONS.book, 18) + '<span class="flex-1">' + esc(l.quellen) + ' · ' + esc(l.chapter) + ' ' + esc(l.kap) + ' ' + esc(t.kapitel) + '</span>' + icon(ICONS.chevron, 16, 2, 'chev' + (srcOpen ? ' rot' : '')) +
         '</button>' +
         (srcOpen ? '<ol class="m-0 pl-9 pr-4 pb-3.5 list-decimal flex flex-col gap-2 text-sm leading-normal">' + quellen + '</ol>' : '') +
       '</div>';
@@ -531,7 +585,7 @@
   function renderFooter() {
     var l = L(), m = state.data.meta;
     var open = !!state.open.impressum;
-    var onlyDe = state.lang !== 'de';
+    var onlyDe = state.lang !== 'de' && !(state.data.ui[state.lang] || {}).haftungText1;
 
     var panel = !open ? '' :
       '<div id="impressum-panel" class="border-t border-[#33363D] px-4 sm:px-6 py-6 grid gap-5 text-sm leading-relaxed" style="grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr))">' +
@@ -561,9 +615,9 @@
       '<div class="max-w-[1200px] mx-auto px-4 sm:px-6 py-8 grid gap-6 text-sm leading-relaxed" style="grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr))">' +
         '<div><h2 class="m-0 mb-2.5 text-[13px] font-semibold tracking-[0.06em] uppercase text-white">' + esc(l.sources) + '</h2>' +
           '<ul class="m-0 pl-[18px] list-disc">' +
-            '<li><a href="' + esc(m.portalUrl) + '" target="_blank" rel="noopener" class="text-[#C9D8EE] underline">admin.ch – Paket Schweiz–EU</a></li>' +
-            '<li><a href="' + esc(m.edaUrl) + '" target="_blank" rel="noopener" class="text-[#C9D8EE] underline">EDA – Verhandlungsergebnisse &amp; Botschaft</a></li>' +
-            '<li><a href="' + esc(m.botschaftUrl) + '" target="_blank" rel="noopener" class="text-[#C9D8EE] underline">Botschaft Paket Schweiz–EU (PDF)</a></li>' +
+            '<li><a href="' + esc(pick(m.portalUrl)) + '" target="_blank" rel="noopener" class="inline-block py-2.5 sm:py-0.5 text-[#C9D8EE] underline">' + esc(l.linkPortal) + '</a></li>' +
+            '<li><a href="' + esc(pick(m.edaUrl)) + '" target="_blank" rel="noopener" class="inline-block py-2.5 sm:py-0.5 text-[#C9D8EE] underline">' + esc(l.linkEda) + '</a></li>' +
+            '<li><a href="' + esc(pick(m.botschaftUrl)) + '" target="_blank" rel="noopener" class="inline-block py-2.5 sm:py-0.5 text-[#C9D8EE] underline">' + esc(l.linkBotschaft) + '</a></li>' +
           '</ul></div>' +
         '<div><p class="m-0">' + esc(pick(m.redaktion)) + '</p><p class="mt-2.5 mb-0 text-[#B9B6AE]">' + esc(l.disclaimer) + '</p></div>' +
       '</div>' +
@@ -598,13 +652,17 @@
     var v = btn.getAttribute('data-value');
     switch (btn.getAttribute('data-action')) {
       case 'lang':   state.lang = v; renderAll(); break;
-      case 'actor':  state.actor = v; renderKompass(); break;
+      case 'actor':
+        state.actor = v; renderKompass();
+        if (isMobile()) $('kompass-detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        break;
       case 'goto':   goTo(v); break;
       case 'mode':   state.mode = v; renderThemen(); break;
       case 'paket':  state.paketFilter = v; renderThemen(); break;
       case 'toggle':
         toggleMap(state.open, v);
         if (v === 'system-check') renderSystemCheck();
+        else if (v === 'verlauf') renderStatus();
         else if (v === 'impressum') { renderFooter(); if (state.open.impressum) $('impressum').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
         else renderThemen();
         break;

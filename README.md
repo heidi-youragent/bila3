@@ -8,14 +8,16 @@ Neutrale, mobile-taugliche Informationsplattform zum Verhandlungspaket Schweiz�
 |---|---|
 | `index.html` | Die Oberfläche (Tailwind CSS via CDN, kein Build-Schritt) |
 | `themen.json` | **Alle Inhalte**: Themen, Argumente, Positionen, Quellenangaben, UI-Texte |
-| `assets/Botschaft_DE.pdf` | Botschaft des Bundesrats (deutsch), die inhaltliche Grundlage |
-| `CLAUDE.md` | Arbeitsregeln für die Weiterentwicklung mit Claude Code |
+| `assets/Botschaft_DE.pdf`, `_FR.pdf`, `_IT.pdf` | Botschaft des Bundesrats in den drei Amtssprachen, die inhaltliche Grundlage |
+| `AGENTS.md` | Arbeitsregeln für AI-Assistenten und Mitarbeitende (`CLAUDE.md` verweist darauf) |
+
+Die Plattform ist viersprachig (DE, FR, IT, EN). Deutsch ist die Referenz; FR und IT folgen der Terminologie der offiziellen Botschaft, EN ist eine eigene Übersetzung (keine offizielle englische Fassung vorhanden).
 
 Oberfläche und Daten sind strikt getrennt: Inhaltliche Änderungen werden ausschliesslich in `themen.json` gemacht, `index.html` bleibt davon unberührt.
 
 ## Lokal ansehen
 
-`index.html` lädt `themen.json` per `fetch`. Das funktioniert nicht beim direkten Öffnen der Datei (`file://`), sondern braucht einen kleinen Webserver:
+`index.html` lädt `themen.json` per `fetch`. Das funktioniert nicht beim direkten Öffnen der Datei (`file://`), sondern braucht einen kleinen Webserver – in VS Code am einfachsten mit der Erweiterung **Live Server** („Go Live“ unten rechts, dann http://localhost:5500), oder im Terminal:
 
 ```bash
 python3 -m http.server 8000

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "stand": "2026-10-04",
+    "stand": "2026-10-10",
     "botschaftUrl": {
       "de": "https://www.europa.eda.admin.ch/dam/de/sd-web/qVBeKDf08Z2m/Botschaft%20Paket%20Schweiz-EU%20(Bilaterale%20III)%20DE.pdf",
       "fr": "https://www.europa.eda.admin.ch/dam/fr/sd-web/qVBeKDf08Z2m/Botschaft%20Paket%20Schweiz-EU%20(Bilaterale%20III)%20FR.pdf",
@@ -18,10 +18,10 @@
       "en": "https://www.europa.eda.admin.ch/en/package-switzerland-eu"
     },
     "redaktion": {
-      "de": "Positionen ohne öffentlich dokumentierten Beleg werden als «Keine Position dokumentiert» geführt. Seitenangaben beziehen sich auf die PDF-Fassung der Botschaft und werden vor der Veröffentlichung redaktionell geprüft.",
-      "fr": "Les positions sans justification publique documentée sont indiquées comme « Aucune position documentée ». Les numéros de page renvoient à la version PDF du message et font l’objet d’une vérification rédactionnelle avant publication.",
-      "it": "Le posizioni senza riscontro pubblico documentato sono indicate come «Nessuna posizione documentata». I numeri di pagina si riferiscono alla versione PDF del messaggio e vengono verificati redazionalmente prima della pubblicazione.",
-      "en": "Positions without publicly documented evidence are listed as “No documented position”. Page numbers refer to the PDF version of the dispatch (German edition for English pages) and are editorially checked before publication."
+      "de": "Positionen ohne öffentlich dokumentierten Beleg werden als «Keine Position dokumentiert» geführt. Seitenangaben beziehen sich auf die PDF-Fassung der Botschaft in der jeweiligen Sprache; sie wurden am 10.10.2026 redaktionell geprüft.",
+      "fr": "Les positions sans justification publique documentée sont indiquées comme « Aucune position documentée ». Les numéros de page renvoient à la version PDF du message dans la langue concernée ; ils ont été vérifiés le 10.10.2026.",
+      "it": "Le posizioni senza riscontro pubblico documentato sono indicate come «Nessuna posizione documentata». I numeri di pagina si riferiscono alla versione PDF del messaggio nella rispettiva lingua; sono stati verificati il 10.10.2026.",
+      "en": "Positions without publicly documented evidence are listed as “No documented position”. Page numbers refer to the PDF version of the dispatch (German edition for English pages) and were checked on 10.10.2026."
     }
   },
   "ui": {
@@ -1761,7 +1761,7 @@
             {
               "ref": "S. 158–161",
               "url": "assets/Botschaft_DE.pdf#page=158",
-              "titel": "Botschaft, Kap. 2.2.6 – Zwei-Pfeiler-Ansatz & bestehende Beihilfen"
+              "titel": "Botschaft, Kap. 2.2.6.4–2.2.6.5 – Zwei-Pfeiler-Ansatz & bestehende Beihilfen"
             },
             {
               "ref": "ab S. 164",
@@ -1840,7 +1840,7 @@
             {
               "ref": "p. 154–157",
               "url": "assets/Botschaft_FR.pdf#page=154",
-              "titel": "Message, chap. 2.2.6 – Approche à deux piliers & aides existantes"
+              "titel": "Message, chap. 2.2.6.4–2.2.6.5 – Approche à deux piliers & aides existantes"
             },
             {
               "ref": "p. 160 ss",
@@ -1919,7 +1919,7 @@
             {
               "ref": "pag. 154–157",
               "url": "assets/Botschaft_IT.pdf#page=154",
-              "titel": "Messaggio, cap. 2.2.6 – Approccio a due pilastri & aiuti esistenti"
+              "titel": "Messaggio, cap. 2.2.6.4–2.2.6.5 – Approccio a due pilastri & aiuti esistenti"
             },
             {
               "ref": "pag. 159 segg.",
@@ -1998,7 +1998,7 @@
             {
               "ref": "pp. 158–161 (German ed.)",
               "url": "assets/Botschaft_DE.pdf#page=158",
-              "titel": "Dispatch, ch. 2.2.6 – Two-pillar approach & existing aid"
+              "titel": "Dispatch, ch. 2.2.6.4–2.2.6.5 – Two-pillar approach & existing aid"
             },
             {
               "ref": "p. 164 ff. (German ed.)",
@@ -2793,7 +2793,7 @@
               "url": "assets/Botschaft_DE.pdf#page=476"
             },
             {
-              "titel": "Botschaft, Kap. 2.4.8 – Auswirkungen auf Kantone & Volkswirtschaft",
+              "titel": "Botschaft, Kap. 2.4.8.2–2.4.8.3 – Auswirkungen auf Kantone & Volkswirtschaft",
               "ref": "S. 486–487",
               "url": "assets/Botschaft_DE.pdf#page=486"
             }
@@ -2871,7 +2871,7 @@
             {
               "ref": "p. 485–486",
               "url": "assets/Botschaft_FR.pdf#page=485",
-              "titel": "Message, chap. 2.4.8 – Conséquences pour les cantons & l’économie"
+              "titel": "Message, chap. 2.4.8.2–2.4.8.3 – Conséquences pour les cantons & l’économie"
             }
           ]
         },
@@ -2947,7 +2947,7 @@
             {
               "ref": "pag. 472–473",
               "url": "assets/Botschaft_IT.pdf#page=472",
-              "titel": "Messaggio, cap. 2.4.8 – Ripercussioni per i Cantoni & l’economia"
+              "titel": "Messaggio, cap. 2.4.8.2–2.4.8.3 – Ripercussioni per i Cantoni & l’economia"
             }
           ]
         },
@@ -3023,7 +3023,7 @@
             {
               "ref": "pp. 486–487 (German ed.)",
               "url": "assets/Botschaft_DE.pdf#page=486",
-              "titel": "Dispatch, ch. 2.4.8 – Impact on cantons & the economy"
+              "titel": "Dispatch, ch. 2.4.8.2–2.4.8.3 – Impact on cantons & the economy"
             }
           ]
         }

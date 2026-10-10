@@ -26,11 +26,11 @@ python3 -m http.server 8000
 
 ## Veröffentlichung
 
-Die Seite läuft über **GitHub Pages** unter **https://bila3.alpenos.ch**. Jeder Push auf `main` wird automatisch veröffentlicht (nach ca. 1–2 Minuten).
+Die Seite läuft über **GitHub Pages** unter **https://bila3.zuri.se**. Jeder Push auf `main` wird automatisch veröffentlicht (nach ca. 1–2 Minuten).
 
 - `CNAME` enthält die eigene Domain für GitHub Pages.
 - `.nojekyll` sorgt dafür, dass GitHub die Dateien unverändert ausliefert.
-- DNS bei Hoststar: `CNAME`-Eintrag `bila3` → `heidi-youragent.github.io`.
+- DNS bei Hoststar (Domain zuri.se): `CNAME`-Eintrag `bila3` → `heidi-youragent.github.io`.
 
 ## Grundsätze
 

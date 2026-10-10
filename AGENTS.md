@@ -15,7 +15,7 @@
 - **Übersetzungen:** FR/IT verwenden die Terminologie der offiziellen FR/IT-Botschaft (z. B. *reprise dynamique du droit*, *recepimento dinamico del diritto*). Neue oder geänderte deutsche Inhalte müssen in allen vier Sprachen nachgeführt werden.
 
 ## Veröffentlichung
-GitHub Pages aus dem Branch `main` (Root), Domain **bila3.alpenos.ch** (`CNAME`-Datei nicht löschen). Ein Push auf `main` ist eine Veröffentlichung – vorher lokal prüfen und nur mit Freigabe der Herausgeberin pushen. Das Repo ist öffentlich: keine Zugangsdaten, Entwürfe oder privaten Notizen committen.
+GitHub Pages aus dem Branch `main` (Root), Domain **bila3.zuri.se** (`CNAME`-Datei nicht löschen). Ein Push auf `main` ist eine Veröffentlichung – vorher lokal prüfen und nur mit Freigabe der Herausgeberin pushen. Das Repo ist öffentlich: keine Zugangsdaten, Entwürfe oder privaten Notizen committen.
 
 ## Lokal ansehen
 `index.html` lädt `themen.json` per `fetch` – direktes Öffnen per `file://` funktioniert nicht. In VS Code die Erweiterung **Live Server** nutzen („Go Live“ unten rechts in der Statusleiste) oder `python3 -m http.server 8000`.

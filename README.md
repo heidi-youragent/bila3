@@ -24,6 +24,14 @@ python3 -m http.server 8000
 # dann im Browser: http://localhost:8000
 ```
 
+## Veröffentlichung
+
+Die Seite läuft über **GitHub Pages** unter **https://bila3.alpenos.ch**. Jeder Push auf `main` wird automatisch veröffentlicht (nach ca. 1–2 Minuten).
+
+- `CNAME` enthält die eigene Domain für GitHub Pages.
+- `.nojekyll` sorgt dafür, dass GitHub die Dateien unverändert ausliefert.
+- DNS bei Hoststar: `CNAME`-Eintrag `bila3` → `heidi-youragent.github.io`.
+
 ## Grundsätze
 
 - **Neutralität:** Chancen und Risiken werden gleichwertig dargestellt, Parteipositionen mit Quelle wiedergegeben.

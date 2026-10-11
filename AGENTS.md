@@ -17,6 +17,9 @@
 ## Veröffentlichung
 GitHub Pages aus dem Branch `main` (Root), Domain **bila3.zuri.se** (`CNAME`-Datei nicht löschen). Ein Push auf `main` ist eine Veröffentlichung – vorher lokal prüfen und nur mit Freigabe der Herausgeberin pushen. Das Repo ist öffentlich: keine Zugangsdaten, Entwürfe oder privaten Notizen committen.
 
+## Lizenz
+Inhalte (`themen.json`) unter **CC BY 4.0**, Code unter **MIT**, `assets/` amtliche Werke (Art. 5 URG). Der Impressum-Text (`ui.<lang>.urheberText`) muss dazu passen – keine „alle Rechte vorbehalten“-Formulierungen mehr einbauen.
+
 ## Lokal ansehen
 `index.html` lädt `themen.json` per `fetch` – direktes Öffnen per `file://` funktioniert nicht. In VS Code die Erweiterung **Live Server** nutzen („Go Live“ unten rechts in der Statusleiste) oder `python3 -m http.server 8000`.
 

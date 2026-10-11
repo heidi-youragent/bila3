@@ -9,6 +9,7 @@ Neutrale, mobile-taugliche Informationsplattform zum Verhandlungspaket Schweiz�
 | `index.html` | Die Oberfläche (Tailwind CSS via CDN, kein Build-Schritt) |
 | `themen.json` | **Alle Inhalte**: Themen, Argumente, Positionen, Quellenangaben, UI-Texte |
 | `assets/Botschaft_DE.pdf`, `_FR.pdf`, `_IT.pdf` | Botschaft des Bundesrats in den drei Amtssprachen, die inhaltliche Grundlage |
+| `LICENSE`, `LICENSE-INHALTE.md` | Lizenzen: Code MIT, Inhalte CC BY 4.0 |
 | `AGENTS.md` | Arbeitsregeln für AI-Assistenten und Mitarbeitende (`CLAUDE.md` verweist darauf) |
 
 Die Plattform ist viersprachig (DE, FR, IT, EN). Deutsch ist die Referenz; FR und IT folgen der Terminologie der offiziellen Botschaft, EN ist eine eigene Übersetzung (keine offizielle englische Fassung vorhanden).
@@ -44,3 +45,9 @@ Die Seite läuft über **GitHub Pages** unter **https://bila3.zuri.se**. Jeder P
 - Portal des Bundes: [admin.ch/de/paket-schweiz-eu](https://www.admin.ch/de/paket-schweiz-eu)
 
 Die Botschaft ist ein amtliches Dokument und nach Art. 5 URG urheberrechtlich nicht geschützt.
+
+## Lizenz
+
+- **Inhalte** (Texte in `themen.json`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) – weiterverwenden erlaubt mit Quellenangabe „bila3 – https://bila3.zuri.se“. Details: [LICENSE-INHALTE.md](LICENSE-INHALTE.md)
+- **Code** (`index.html`): [MIT](LICENSE)
+- **Botschaft des Bundesrats** (`assets/`): amtliches Werk, nicht urheberrechtlich geschützt (Art. 5 URG)
